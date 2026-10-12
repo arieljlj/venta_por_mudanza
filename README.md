@@ -19,3 +19,7 @@ Cada artículo tiene su propio enlace para compartir en grupos de WhatsApp:
 ## Medios de pago
 
 Efectivo en euros (€), efectivo en pesos colombianos o llave Bre-B. Se paga el total al recoger; transporte a cargo del comprador.
+
+## Vista previa en WhatsApp
+
+Al publicar, `scripts/generar-paginas.js` crea una página por artículo en `p/<id>/` con su propia foto, título y precio. Así, al compartir un artículo por WhatsApp o Facebook se ve la foto correcta. Esto pasa solo; no hay que hacer nada.

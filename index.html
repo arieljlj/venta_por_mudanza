@@ -352,7 +352,7 @@
     var icon = function (c) { return '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + (ICONS[c] || ICONS.Todos) + '</svg>'; };
     var esc = function (s) { return String(s).replace(/[&<>"]/g, function (m) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]; }); };
     var waLink = function (text) { return "https://wa.me/" + C.whatsapp + "?text=" + encodeURIComponent(text); };
-    var itemUrl = function (p) { return C.sitio + "#" + p.id; };
+    var itemUrl = function (p) { return C.sitio + "p/" + p.id + "/"; };
 
     $("waTop").href = waLink("Hola Jorge, vi tu venta por mudanza y quiero preguntar por los artículos.");
     $("sideLoc").textContent = C.ubicacion;
