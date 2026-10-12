@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Artículos para el hogar y electrodomésticos por mudanza a España. Entregas del 5 al 10 de noviembre.">
+  <title>Venta por mudanza | Hogar y electrodomésticos</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1c1e21;
+      background: #f0f2f5;
+      font-synthesis: none;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: inherit; text-decoration: none; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      min-height: 68px;
+      padding: 12px max(24px, calc((100vw - 1200px) / 2));
+      background: #fff;
+      box-shadow: 0 1px 3px #0002;
+    }
+    .brand { color: #1877f2; font-size: 22px; font-weight: 700; white-space: nowrap; }
+    .search {
+      width: min(420px, 45vw);
+      padding: 12px 16px;
+      border: 0;
+      border-radius: 24px;
+      background: #f0f2f5;
+      color: #606770;
+      font-size: 15px;
+    }
+    .top-note { margin-left: auto; color: #606770; font-size: 14px; }
+
+    main { max-width: 1200px; margin: 0 auto; padding: 30px 24px 56px; }
+    .intro { margin-bottom: 24px; }
+    .eyebrow { margin: 0 0 8px; color: #1877f2; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 38px); }
+    .intro p { max-width: 680px; margin: 0; color: #606770; line-height: 1.55; }
+
+    .delivery {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 24px 0 30px;
+      padding: 18px 20px;
+      border: 1px solid #cfe0fa;
+      border-radius: 10px;
+      background: #e7f3ff;
+    }
+    .delivery-icon { font-size: 25px; }
+    .delivery strong { display: block; margin-bottom: 3px; color: #164f9c; }
+    .delivery span { color: #34495e; font-size: 14px; }
+
+    .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+    h2 { margin: 0; font-size: 22px; }
+    .section-heading p { margin: 0; color: #606770; font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+    .card {
+      overflow: hidden;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 1px 3px #0002;
+    }
+    .card-art {
+      display: grid;
+      min-height: 170px;
+      place-items: center;
+      background: linear-gradient(135deg, #dceaff, #f2f6fc);
+      font-size: 64px;
+    }
+    .card:nth-child(2) .card-art { background: linear-gradient(135deg, #e4f4ed, #f3faf6); }
+    .card:nth-child(3) .card-art { background: linear-gradient(135deg, #fff0df, #fff8ef); }
+    .card:nth-child(4) .card-art { background: linear-gradient(135deg, #f2eaff, #faf6ff); }
+    .card-content { padding: 16px; }
+    .card h3 { margin: 0 0 7px; font-size: 18px; }
+    .card p { min-height: 40px; margin: 0 0 15px; color: #606770; font-size: 14px; line-height: 1.45; }
+    .button {
+      display: block;
+      width: 100%;
+      padding: 11px 14px;
+      border-radius: 6px;
+      background: #1877f2;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .button:hover, .button:focus-visible { background: #166fe5; }
+    .contact { margin: 30px 0 0; color: #606770; font-size: 14px; text-align: center; }
+    .contact a { color: #1877f2; font-weight: 700; text-decoration: underline; }
+    footer { padding: 20px 24px; background: #fff; color: #606770; font-size: 13px; text-align: center; }
+
+    @media (max-width: 850px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 560px) {
+      .topbar { flex-wrap: wrap; gap: 10px; padding: 12px 16px; }
+      .brand { font-size: 20px; }
+      .search { order: 3; width: 100%; }
+      .top-note { font-size: 12px; }
+      main { padding: 24px 16px 40px; }
+      .grid { grid-template-columns: 1fr; gap: 14px; }
+      .card { display: grid; grid-template-columns: 110px 1fr; }
+      .card-art { min-height: 100%; font-size: 44px; }
+      .card-content { padding: 14px; }
+      .card p { min-height: 0; }
+      .section-heading { align-items: flex-start; flex-direction: column; }
+      .delivery { align-items: flex-start; padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Venta por mudanza, inicio">Venta por mudanza</a>
+    <div class="search" aria-label="Catálogo">Hogar y electrodomésticos</div>
+    <span class="top-note">Venta por mudanza a España</span>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Oportunidades para tu hogar</p>
+      <h1 id="page-title">Artículos de hogar y electrodomésticos</h1>
+      <p>Estoy preparando mi mudanza a España y vendo artículos para el hogar. Escríbeme para consultar qué hay disponible, sus detalles y precio.</p>
+    </section>
+
+    <aside class="delivery" aria-label="Fechas de entrega">
+      <span class="delivery-icon" aria-hidden="true">📦</span>
+      <div>
+        <strong>Fechas de entrega: del 5 al 10 de noviembre</strong>
+        <span>Coordina conmigo por WhatsApp para consultar disponibilidad y acordar la entrega.</span>
+      </div>
+    </aside>
+
+    <section aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <h2 id="catalog-title">Explora el catálogo</h2>
+        <p>Consulta disponibilidad y precio directamente por WhatsApp.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="card-art" aria-hidden="true">🛋️</div>
+          <div class="card-content">
+            <h3>Muebles</h3>
+            <p>Consulta los muebles disponibles y sus detalles.</p>
+            <a class="button" href="https://wa.me/573153422371?text=Hola%2C%20quiero%20consultar%20por%20los%20muebles%20disponibles." target="_blank" rel="noopener noreferrer">Lo quiero</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-art" aria-hidden="true">🧺</div>
+          <div class="card-content">
+            <h3>Electrodomésticos</h3>
+            <p>Pregunta por los electrodomésticos disponibles.</p>
+            <a class="button" href="https://wa.me/573153422371?text=Hola%2C%20quiero%20consultar%20por%20los%20electrodom%C3%A9sticos%20disponibles." target="_blank" rel="noopener noreferrer">Lo quiero</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-art" aria-hidden="true">🍽️</div>
+          <div class="card-content">
+            <h3>Cocina</h3>
+            <p>Consulta artículos de cocina y hogar disponibles.</p>
+            <a class="button" href="https://wa.me/573153422371?text=Hola%2C%20quiero%20consultar%20por%20los%20art%C3%ADculos%20de%20cocina%20disponibles." target="_blank" rel="noopener noreferrer">Lo quiero</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-art" aria-hidden="true">🪴</div>
+          <div class="card-content">
+            <h3>Hogar y decoración</h3>
+            <p>Pregunta por otros artículos para el hogar.</p>
+            <a class="button" href="https://wa.me/573153422371?text=Hola%2C%20quiero%20consultar%20por%20los%20art%C3%ADculos%20de%20hogar%20disponibles." target="_blank" rel="noopener noreferrer">Lo quiero</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <p class="contact">¿Buscas algo en particular? <a href="https://wa.me/573153422371?text=Hola%2C%20quiero%20consultar%20por%20los%20art%C3%ADculos%20disponibles." target="_blank" rel="noopener noreferrer">Escríbeme por WhatsApp</a>.</p>
+  </main>
+
+  <footer>Venta por mudanza · Entregas del 5 al 10 de noviembre</footer>
+</body>
+</html>
