@@ -84,6 +84,11 @@
     .side-title { font-size: 17px; font-weight: 700; margin: 8px 8px 4px; }
     .side-note { margin: 4px 8px; color: var(--muted); font-size: 14px; line-height: 1.4; }
     .side-note strong { color: var(--text); }
+    .pay-list { list-style: none; margin: 4px 8px 6px; padding: 0; display: grid; gap: 6px; }
+    .pay-list li { display: flex; align-items: center; gap: 8px; font-size: 15px; }
+    .pay-list li::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--wa); flex: none; }
+    .pay-box { background: var(--bg); border-radius: var(--radius); padding: 12px; margin: 0 0 16px; font-size: 14px; line-height: 1.45; }
+    .pay-box strong { display: block; font-size: 15px; margin-bottom: 4px; }
     .loc-link { color: var(--blue); font-weight: 600; font-size: 15px; margin: 4px 8px; display: block; }
 
     main { padding: 20px 24px 48px; min-width: 0; }
@@ -244,7 +249,9 @@
       <div class="side-sep"></div>
       <div class="side-title">Entregas</div>
       <p class="side-note"><strong>Del 5 al 10 de noviembre.</strong> Me mudo a España y vendo lo de la casa. Puedes separar tu artículo desde ya y recogerlo en esas fechas.</p>
-      <p class="side-note">Pago contra entrega en efectivo o transferencia. El transporte corre por cuenta del comprador.</p>
+      <div class="side-title">Medios de pago</div>
+      <ul class="pay-list" id="sidePay"></ul>
+      <p class="side-note" id="sideCond"></p>
     </aside>
 
     <main>
@@ -254,7 +261,7 @@
         </span>
         <div>
           <strong>Venta por mudanza a España · Entregas del 5 al 10 de noviembre</strong>
-          <span>Toca un artículo para ver fotos y detalles. Con “Lo quiero” me escribes directo por WhatsApp.</span>
+          <span>Toca un artículo para ver fotos y detalles. Con “Lo quiero” me escribes directo por WhatsApp. Recibo euros (€) en efectivo, pesos o Bre-B.</span>
         </div>
       </section>
 
@@ -317,6 +324,7 @@
         <div class="sec-title">Detalles</div>
         <dl class="details" id="pDetails"></dl>
         <p class="desc" id="pDesc"></p>
+        <div class="pay-box" id="pPay"></div>
         <div class="seller">
           <span class="avatar" aria-hidden="true">J</span>
           <div><strong>Jorge Ariel</strong><small>Vendedor · Responde por WhatsApp</small></div>
@@ -349,6 +357,8 @@
     $("waTop").href = waLink("Hola Jorge, vi tu venta por mudanza y quiero preguntar por los artículos.");
     $("sideLoc").textContent = C.ubicacion;
     $("feedLoc").textContent = C.ubicacion;
+    $("sidePay").innerHTML = C.pagos.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("");
+    $("sideCond").textContent = C.condicionesPago;
 
     /* Categorías */
     var cats = ["Todos"];
@@ -426,6 +436,7 @@
                                p.estado === "vendido" ? '<span class="status-pill vendido">Este artículo ya se vendió</span>' : "";
       $("pDetails").innerHTML = "<dt>Estado</dt><dd>" + esc(p.condicion) + "</dd><dt>Categoría</dt><dd>" + esc(p.categoria) + "</dd><dt>Entrega</dt><dd>5 al 10 de noviembre</dd>";
       $("pDesc").textContent = p.descripcion;
+      $("pPay").innerHTML = "<strong>Medios de pago</strong>" + esc(C.pagos.join(" · ")) + "<br>" + esc(C.condicionesPago);
       var msg = p.estado === "reservado"
         ? "Hola Jorge, vi que " + p.titulo + " está reservado. Si se libera, me interesa. " + itemUrl(p)
         : "Hola Jorge, ¡lo quiero! Me interesa: " + p.titulo + " (" + money(p.precio) + "). ¿Sigue disponible? " + itemUrl(p);

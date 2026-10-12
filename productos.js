@@ -9,6 +9,8 @@ window.CONFIG = {
   whatsapp: "573153422371",
   ubicacion: "Cartago, Valle del Cauca",
   entrega: "Entregas del 5 al 10 de noviembre",
+  pagos: ["Efectivo en euros (€)", "Efectivo en pesos colombianos", "Llave Bre-B"],
+  condicionesPago: "Se paga el total al momento de recoger el artículo. El transporte corre por cuenta del comprador.",
   sitio: "https://arieljlj.github.io/venta_por_mudanza/"
 };
 
@@ -17,7 +19,7 @@ window.PRODUCTOS = [
     id: "nevera-samsung",
     titulo: "Nevera Samsung No Frost con dispensador de agua",
     categoria: "Electrodomésticos",
-    precio: 1650000,
+    precio: 2150000,
     precioNuevo: 2850000,
     estado: "disponible",
     condicion: "Usado - Como nuevo",
@@ -49,7 +51,7 @@ window.PRODUCTOS = [
   },
   {
     id: "aire-acondicionado-kalley",
-    titulo: "Aire acondicionado Kalley Inverter tipo split",
+    titulo: "Aire acondicionado Kalley Inverter 12.000 BTU (K-A12D)",
     categoria: "Electrodomésticos",
     precio: 900000,
     precioNuevo: null,
@@ -58,7 +60,8 @@ window.PRODUCTOS = [
     fotos: 2,
     destacado: false,
     descripcion:
-      "Aire acondicionado Kalley tipo split con tecnología Inverter (ahorro de energía). Incluye unidad interior y unidad exterior (condensadora) con sus soportes.\n\n" +
+      "Aire acondicionado Kalley modelo K-A12D, tipo split, 12.000 BTU, tecnología Inverter (ahorro de energía), 115 V. Incluye unidad interior y unidad exterior (condensadora) con sus soportes.\n\n" +
+      "• Adecuado para habitaciones de aprox. 15 a 20 m²\n" +
       "• Poco uso, en excelente estado\n" +
       "• El desmonte y la instalación corren por cuenta del comprador\n\n" +
       "Se vende por viaje al exterior."
@@ -67,7 +70,7 @@ window.PRODUCTOS = [
     id: "microondas-whirlpool",
     titulo: "Horno microondas Whirlpool plateado",
     categoria: "Electrodomésticos",
-    precio: 200000,
+    precio: 185000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Buen estado",
@@ -131,8 +134,8 @@ window.PRODUCTOS = [
       "Se vende por viaje al exterior."
   },
   {
-    id: "juego-de-alcoba",
-    titulo: "Juego de alcoba: cama con cabecero capitoné + 2 mesas de noche",
+    id: "juego-de-alcoba-negro",
+    titulo: "Juego de alcoba cabecero NEGRO: cama + colchón + 2 mesas de noche",
     categoria: "Alcoba",
     precio: 1200000,
     precioNuevo: null,
@@ -141,11 +144,12 @@ window.PRODUCTOS = [
     fotos: 5,
     destacado: true,
     descripcion:
-      "Juego de alcoba en color negro brillante.\n\n" +
+      "Juego de alcoba con cabecero color NEGRO.\n\n" +
       "• Base cama con cabecero capitoné en cuerina negra con detalles tipo cristal\n" +
+      "• Incluye el colchón\n" +
       "• 2 mesas de noche negras lacadas con 2 cajones y manijas de cristal\n" +
       "• Muy buen estado\n\n" +
-      "Pregunta por el colchón, las lámparas y la ropa de cama.\n" +
+      "Pregunta por las lámparas y la ropa de cama.\n" +
       "Se vende por viaje al exterior."
   },
   {

@@ -15,3 +15,7 @@ Todo el contenido está en **`productos.js`**. Desde GitHub: abre el archivo, to
 
 Cada artículo tiene su propio enlace para compartir en grupos de WhatsApp:
 `https://arieljlj.github.io/venta_por_mudanza/#lavadora-lg-13kg`
+
+## Medios de pago
+
+Efectivo en euros (€), efectivo en pesos colombianos o llave Bre-B. Se paga el total al recoger; transporte a cargo del comprador.
