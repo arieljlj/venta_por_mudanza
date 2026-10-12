@@ -137,7 +137,7 @@ window.PRODUCTOS = [
     id: "juego-de-alcoba-negro",
     titulo: "Juego de alcoba cabecero NEGRO: cama + colchón + 2 mesas de noche",
     categoria: "Alcoba",
-    precio: 1200000,
+    precio: 1500000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Muy buen estado",
