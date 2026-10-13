@@ -211,7 +211,7 @@ window.PRODUCTOS = [
   },
   {
     id: "cama-160-cabecero-gris",
-    titulo: "Cama 1,60 m con cabecero capitoné GRIS",
+    titulo: "Cama 1,60 m con cabecero capitoné GRIS + colchón",
     categoria: "Alcoba",
     precio: 900000,
     precioNuevo: null,
@@ -222,6 +222,7 @@ window.PRODUCTOS = [
     descripcion:
       "Base cama de 1,60 m (queen) con cabecero y laterales capitoné en cuerina color GRIS.\n" +
       "\n" +
+      "• Incluye el colchón\n" +
       "• Diseño elegante y moderno\n" +
       "• Muy buen estado\n" +
       "• No incluye los peluches ni la ropa de cama de las fotos\n" +
@@ -326,7 +327,7 @@ window.PRODUCTOS = [
   },
   {
     id: "escritorio-blanco-silla",
-    titulo: "Escritorio blanco con vidrio y cajones + silla giratoria",
+    titulo: "Escritorio blanco con vidrio y cajones + silla giratoria + organizador",
     categoria: "Oficina",
     precio: 450000,
     precioNuevo: null,
@@ -337,6 +338,8 @@ window.PRODUCTOS = [
     descripcion:
       "Escritorio color blanco con cubierta y pata lateral de vidrio templado, 2 cajones, más silla giratoria blanca con brazos y base cromada.\n" +
       "\n" +
+      "• Incluye el organizador blanco de 2 cubos\n" +
+      "• No incluye los libros ni la porcelana de las fotos\n" +
       "• Ideal para cuarto de estudio o habitación juvenil\n" +
       "• Muy buen estado\n" +
       "\n" +
