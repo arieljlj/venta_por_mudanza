@@ -213,7 +213,7 @@ window.PRODUCTOS = [
     id: "cama-160-cabecero-gris",
     titulo: "Cama 1,60 m con cabecero capitoné GRIS + colchón",
     categoria: "Alcoba",
-    precio: 900000,
+    precio: 1250000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Muy buen estado",
