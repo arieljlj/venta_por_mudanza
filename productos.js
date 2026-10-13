@@ -135,7 +135,7 @@ window.PRODUCTOS = [
   },
   {
     id: "juego-de-alcoba-negro",
-    titulo: "Juego de alcoba cabecero NEGRO: cama + colchón + 2 mesas de noche",
+    titulo: "Juego de alcoba 1,60 m cabecero NEGRO: cama + colchón + 2 mesas de noche",
     categoria: "Alcoba",
     precio: 1500000,
     precioNuevo: null,
@@ -145,6 +145,7 @@ window.PRODUCTOS = [
     destacado: true,
     descripcion:
       "Juego de alcoba con cabecero color NEGRO.\n\n" +
+      "• Cama de 1,60 m (queen)\n" +
       "• Base cama con cabecero capitoné en cuerina negra con detalles tipo cristal\n" +
       "• Incluye el colchón\n" +
       "• 2 mesas de noche negras lacadas con 2 cajones y manijas de cristal\n" +
@@ -167,6 +168,250 @@ window.PRODUCTOS = [
       "• Amplia superficie de trabajo\n" +
       "• Cajoneras a ambos lados\n" +
       "• Ideal para maquillaje o peinado\n\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "tv-lg-55-4k",
+    titulo: "Televisor LG 55 pulgadas 4K UHD Smart TV",
+    categoria: "Tecnología",
+    precio: 1100000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 3,
+    destacado: true,
+    descripcion:
+      "Smart TV LG de 55 pulgadas, resolución 4K UHD, modelo 55UN7100PDA (fabricado en 2021), con sistema webOS para apps como Netflix y YouTube.\n" +
+      "\n" +
+      "• Imagen 4K con HDR\n" +
+      "• Control remoto incluido\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "sofacama",
+    titulo: "Sofá cama gris oscuro con colchoneta extraíble",
+    categoria: "Sala y comedor",
+    precio: 950000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 7,
+    destacado: true,
+    descripcion:
+      "Sofá cama en tela color gris oscuro, con colchoneta inferior que se extrae y se convierte en cama.\n" +
+      "\n" +
+      "• De día es sofá, de noche cama para visitas\n" +
+      "• Brazos acolchados\n" +
+      "• Cojines decorativos incluidos\n" +
+      "• Muy buen estado\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "cama-160-cabecero-gris",
+    titulo: "Cama 1,60 m con cabecero capitoné GRIS",
+    categoria: "Alcoba",
+    precio: 900000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 2,
+    destacado: false,
+    descripcion:
+      "Base cama de 1,60 m (queen) con cabecero y laterales capitoné en cuerina color GRIS.\n" +
+      "\n" +
+      "• Diseño elegante y moderno\n" +
+      "• Muy buen estado\n" +
+      "• No incluye los peluches ni la ropa de cama de las fotos\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "impresora-epson-l5590",
+    titulo: "Impresora multifuncional Epson EcoTank L5590",
+    categoria: "Tecnología",
+    precio: 800000,
+    precioNuevo: 1249900,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 4,
+    destacado: false,
+    descripcion:
+      "Impresora multifuncional Epson EcoTank L5590 con tanques de tinta recargables (sistema continuo original de fábrica).\n" +
+      "\n" +
+      "• Imprime, copia, escanea y envía fax\n" +
+      "• Alimentador automático de documentos (ADF)\n" +
+      "• Conexión Wi-Fi, USB y red (LAN)\n" +
+      "• Muy bajo costo por página\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "monitor-kalley-24",
+    titulo: "Monitor Kalley 24 pulgadas",
+    categoria: "Tecnología",
+    precio: 280000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Como nuevo",
+    fotos: 5,
+    destacado: false,
+    descripcion:
+      "Monitor Kalley de 24 pulgadas, modelo K-M24FP2, panel de bordes delgados.\n" +
+      "\n" +
+      "• Ideal para trabajo, estudio o como segunda pantalla\n" +
+      "• Incluye base y adaptador de corriente\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "barra-sonido-lg",
+    titulo: "Barra de sonido LG SK1D con Bluetooth",
+    categoria: "Tecnología",
+    precio: 200000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 6,
+    destacado: false,
+    descripcion:
+      "Barra de sonido LG modelo SK1D con Dolby Audio y DTS Digital Surround.\n" +
+      "\n" +
+      "• Conexión Bluetooth, óptica y USB\n" +
+      "• Se conecta fácil al televisor\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "tv-hyundai-32-curvo",
+    titulo: "Televisor Hyundai 32 pulgadas curvo",
+    categoria: "Tecnología",
+    precio: 380000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Buen estado",
+    fotos: 4,
+    destacado: false,
+    descripcion:
+      "Televisor Hyundai de 32 pulgadas, pantalla curva LED, modelo HYLED3213INTC.\n" +
+      "\n" +
+      "• Entradas HDMI y USB\n" +
+      "• Ideal para habitación o cocina\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "escritorio-marron-silla",
+    titulo: "Escritorio madera con pata de vidrio + silla ergonómica",
+    categoria: "Oficina",
+    precio: 550000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 2,
+    destacado: false,
+    descripcion:
+      "Escritorio con superficie en madera color marrón y pata lateral de vidrio templado, más silla de oficina ergonómica.\n" +
+      "\n" +
+      "• Silla giratoria con espaldar en malla, brazos abatibles y ruedas\n" +
+      "• Ideal para teletrabajo o estudio\n" +
+      "• Muy buen estado\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "escritorio-blanco-silla",
+    titulo: "Escritorio blanco con vidrio y cajones + silla giratoria",
+    categoria: "Oficina",
+    precio: 450000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 3,
+    destacado: false,
+    descripcion:
+      "Escritorio color blanco con cubierta y pata lateral de vidrio templado, 2 cajones, más silla giratoria blanca con brazos y base cromada.\n" +
+      "\n" +
+      "• Ideal para cuarto de estudio o habitación juvenil\n" +
+      "• Muy buen estado\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "mueble-3-cajones",
+    titulo: "Cómoda blanca de 3 cajones",
+    categoria: "Alcoba",
+    precio: 280000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Buen estado",
+    fotos: 2,
+    destacado: false,
+    descripcion:
+      "Cómoda o cajonero color blanco con 3 cajones amplios y manijas metálicas.\n" +
+      "\n" +
+      "• Ideal para ropa, juguetes o como mueble auxiliar\n" +
+      "• Buen estado\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "cuadro-abstracto",
+    titulo: "Cuadro grande pintura abstracta con marco negro",
+    categoria: "Decoración",
+    precio: 600000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 2,
+    destacado: false,
+    descripcion:
+      "Cuadro de gran formato con pintura abstracta en tonos naranja, rojo y azul, con marco negro.\n" +
+      "\n" +
+      "• Pieza protagonista para sala, comedor u oficina\n" +
+      "• Muy buen estado\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "lampara-de-pie",
+    titulo: "Lámpara de pie para lectura negra",
+    categoria: "Decoración",
+    precio: 120000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 3,
+    destacado: false,
+    descripcion:
+      "Lámpara de pie color negro, ideal para lectura, con brazo flexible y pantalla metálica orientable.\n" +
+      "\n" +
+      "• Base redonda estable\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "ventilador-samurai",
+    titulo: "Ventilador de pedestal Samurai",
+    categoria: "Electrodomésticos",
+    precio: 90000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Buen estado",
+    fotos: 2,
+    destacado: false,
+    descripcion:
+      "Ventilador de pie marca Samurai, color negro, con altura ajustable y oscilación.\n" +
+      "\n" +
+      "• Varias velocidades\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
       "Se vende por viaje al exterior."
   }
 ];
