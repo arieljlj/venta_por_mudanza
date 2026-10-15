@@ -206,21 +206,23 @@ window.PRODUCTOS = [
   },
   {
     id: "sofacama",
-    titulo: "Sofá cama gris oscuro con colchoneta extraíble",
+    titulo: "Sofá cama desplegable gris oscuro (2 a 3 puestos) + 4 cojines",
     categoria: "Sala y comedor",
-    precio: 950000,
-    precioNuevo: null,
+    precio: 620000,
+    precioNuevo: 1400000,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
-    fotos: 7,
+    condicion: "Usado - Detalle en la tela (precio de remate)",
+    fotos: 8,
     destacado: true,
     descripcion:
-      "Sofá cama en tela color gris oscuro, con colchoneta inferior que se extrae y se convierte en cama.\n" +
+      "Sofá cama desplegable de sistema nido/carro frontal, tapizado en tela tipo jacquard color gris oscuro.\n" +
       "\n" +
-      "• De día es sofá, de noche cama para visitas\n" +
-      "• Brazos acolchados\n" +
-      "• Cojines decorativos incluidos\n" +
-      "• Muy buen estado\n" +
+      "• Mecanismo 100 % funcional: la base se desliza hacia adelante sobre ruedas y se convierte en cama semidoble/doble\n" +
+      "• Apoyabrazos acolchados con soporte metálico cromado\n" +
+      "• Incluye los 4 cojines decorativos en tonos grises\n" +
+      "• Ideal para espacios pequeños o para recibir visitas\n" +
+      "\n" +
+      "Detalle: la tela del borde superior trasero del espaldar tiene rasgados por roce con la pared (ver última foto). Ideal para ubicar pegado a la pared o usar con una manta decorativa. Por eso se deja a precio de remate.\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
