@@ -56,19 +56,25 @@ window.PRODUCTOS = [
   },
   {
     id: "aire-acondicionado-kalley",
-    titulo: "Aire acondicionado Kalley Inverter 12.000 BTU (K-A12D)",
+    titulo: "Aire acondicionado Kalley Inverter 12.000 BTU mini split (K-A12D)",
     categoria: "Electrodomésticos",
-    precio: 900000,
-    precioNuevo: null,
+    precio: 820000,
+    precioNuevo: 1250000,
     estado: "disponible",
-    condicion: "Usado - Como nuevo",
-    fotos: 2,
+    condicion: "Usado - Excelente estado",
+    fotos: 3,
     destacado: false,
     descripcion:
-      "Aire acondicionado Kalley modelo K-A12D, tipo split, 12.000 BTU, tecnología Inverter (ahorro de energía), 115 V. Incluye unidad interior y unidad exterior (condensadora) con sus soportes.\n\n" +
-      "• Adecuado para habitaciones de aprox. 15 a 20 m²\n" +
-      "• Poco uso, en excelente estado\n" +
-      "• El desmonte y la instalación corren por cuenta del comprador\n\n" +
+      "Aire acondicionado mini split de pared Kalley, modelo K-A12D, tecnología Inverter, 115 V.\n" +
+      "\n" +
+      "• Capacidad de enfriamiento: 3.185 W (12.000 BTU/h), ideal para espacios de 16 a 20 m²\n" +
+      "• Inverter: regula la temperatura de forma eficiente y consume menos que un equipo convencional\n" +
+      "• Unidad interior (evaporador) y unidad exterior (condensador) limpias y en excelente estado\n" +
+      "• Incluye control remoto original y la base metálica de la condensadora\n" +
+      "• Kit de tubería de cobre: se entrega tal como está. El técnico que haga la nueva instalación define si se puede reutilizar; si no, el kit nuevo corre por cuenta del comprador\n" +
+      "\n" +
+      "El desmonte y la instalación corren por cuenta del comprador.\n" +
+      "\n" +
       "Se vende por viaje al exterior."
   },
   {
