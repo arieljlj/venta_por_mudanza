@@ -89,20 +89,24 @@ window.PRODUCTOS = [
   },
   {
     id: "juego-de-sala",
-    titulo: "Juego de sala: sofá + 2 poltronas + mesas de centro",
+    titulo: "Juego de sala moderno acanalado en terciopelo: sofá + 2 poltronas + mesas nido",
     categoria: "Sala y comedor",
-    precio: 1800000,
-    precioNuevo: null,
+    precio: 2150000,
+    precioNuevo: 3200000,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
+    condicion: "Usado - Excelente estado",
     fotos: 9,
     destacado: true,
     descripcion:
-      "Juego de sala moderno en tela tipo terciopelo con diseño de capitoné vertical.\n\n" +
-      "• Sofá de 2 a 3 puestos color gris\n" +
-      "• 2 poltronas color perla con patas de madera\n" +
-      "• Juego de 2 mesas de centro nido (tapa blanca y base metálica)\n" +
-      "• Muy buen estado\n\n" +
+      "Juego de sala estilo Glam Moderno, con líneas curvas y tapizado acanalado vertical (channel tufting).\n" +
+      "\n" +
+      "• Sofá principal de 2 a 3 puestos en terciopelo color gris ratón, con espaldar y brazos envolventes acanalados\n" +
+      "• 2 poltronas tipo concha con espaldar curvo acanalado, en terciopelo color crema/marfil y patas cónicas de madera estilo nórdico\n" +
+      "• Juego de 2 mesas de centro nido circulares, cubierta blanca y base metálica\n" +
+      "• Excelente estado: sin desgaste visible ni manchas en las telas\n" +
+      "\n" +
+      "Precio por el combo completo. También se vende por separado: sofá $950.000, par de poltronas $650.000, mesas nido $200.000.\n" +
+      "\n" +
       "Se vende por viaje al exterior."
   },
   {
