@@ -36,17 +36,22 @@ window.PRODUCTOS = [
     id: "lavadora-lg-13kg",
     titulo: "Lavadora LG 13 kg Smart Inverter TurboDrum",
     categoria: "Electrodomésticos",
-    precio: 850000,
+    precio: 1100000,
     precioNuevo: 1400000,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
+    condicion: "Usado - Excelente estado",
     fotos: 5,
     destacado: true,
     descripcion:
-      "Lavadora LG de carga superior, 13 kg (29 lb), motor Smart Inverter con 36 % de ahorro de energía y tecnología TurboDrum.\n\n" +
-      "• Tapa de vidrio templado\n" +
-      "• Varios programas de lavado, nivel de agua y temperatura\n" +
-      "• Funcionando perfectamente\n\n" +
+      "Lavadora LG de carga superior, 13 kg (29 lb), con motor Smart Inverter (36 % de ahorro de energía) y tecnología TurboDrum.\n" +
+      "\n" +
+      "• Tapa de vidrio templado con cierre suave (Soft Closing)\n" +
+      "• Panel digital LoDecibel: programas de lavado, nivel de agua y temperatura\n" +
+      "• Motor Inverter con garantía de 10 años de fábrica (adhesivo original)\n" +
+      "• Cuerpo blanco con tapa en contraste gris oscuro\n" +
+      "• Excelente estado estético, limpia y con sus etiquetas originales\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
       "Se vende por viaje al exterior."
   },
   {
