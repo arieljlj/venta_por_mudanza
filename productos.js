@@ -329,17 +329,18 @@ window.PRODUCTOS = [
     id: "mueble-3-cajones",
     titulo: "Cómoda blanca de 3 cajones",
     categoria: "Alcoba",
-    precio: 280000,
-    precioNuevo: null,
+    precio: 135000,
+    precioNuevo: 220000,
     estado: "disponible",
-    condicion: "Usado - Buen estado",
+    condicion: "Usado - Aceptable (detalles estéticos)",
     fotos: 2,
     destacado: false,
     descripcion:
       "Cómoda o cajonero color blanco con 3 cajones amplios y manijas metálicas.\n" +
       "\n" +
       "• Ideal para ropa, juguetes o como mueble auxiliar\n" +
-      "• Buen estado\n" +
+      "• Estructura y cajones en buen estado de funcionamiento\n" +
+      "• Detalle estético: desgaste normal por uso en el borde superior, donde el recubrimiento blanco está levantado o despintado ligeramente (precio ajustado por esto)\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
