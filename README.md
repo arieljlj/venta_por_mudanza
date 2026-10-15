@@ -23,3 +23,7 @@ Efectivo en euros (€), efectivo en pesos colombianos o llave Bre-B. Se paga el
 ## Vista previa en WhatsApp
 
 Al publicar, `scripts/generar-paginas.js` crea una página por artículo en `p/<id>/` con su propia foto, título y precio. Así, al compartir un artículo por WhatsApp o Facebook se ve la foto correcta. Esto pasa solo; no hay que hacer nada.
+
+## Videos
+
+Un artículo puede tener un video corto: se guarda como `img/<id>/video.mp4` (comprimido a 720p, sin audio, ~1 MB) junto con `video-poster.jpg`, y en `productos.js` se agrega `video: true`. El video aparece como segunda diapositiva de la galería.

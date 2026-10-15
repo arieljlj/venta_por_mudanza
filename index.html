@@ -141,6 +141,10 @@
     .stage { position: relative; display: grid; place-items: center; min-height: 0; overflow: hidden; }
     .stage img { max-width: 100%; max-height: 100%; object-fit: contain; }
     .stage .blur { position: absolute; inset: -40px; background-size: cover; background-position: center; filter: blur(30px) brightness(.45); }
+    .stage video.main { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; object-fit: contain; background: #000; }
+    .strip .play { position: relative; }
+    .strip .play::after { content: "▶"; position: absolute; inset: 0; display: grid; place-items: center; color: #fff; font-size: 20px; text-shadow: 0 1px 4px #000; }
+    .badge.video { left: auto; right: 8px; }
     .stage img.main { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; max-width: none; max-height: none; object-fit: contain; }
     .nav-btn {
       position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 48px; height: 48px; border-radius: 50%;
@@ -293,6 +297,7 @@
       <div class="stage" id="stage">
         <div class="blur" id="blur"></div>
         <img class="main" id="mainImg" alt="">
+        <video class="main" id="mainVid" controls playsinline muted loop preload="none" hidden></video>
         <button class="close-btn" id="closeBtn" aria-label="Cerrar">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
         </button>
@@ -404,7 +409,7 @@
         var badge = p.estado === "reservado" ? '<span class="badge reservado">Reservado</span>' :
                     p.estado === "vendido" ? '<span class="badge vendido">Vendido</span>' : "";
         return '<a class="item is-' + p.estado + '" href="#' + p.id + '" aria-label="' + esc(p.titulo) + ', ' + money(p.precio) + '">' +
-          '<div class="thumb">' + badge + '<img loading="lazy" src="img/' + p.id + '/thumb.jpg" alt=""></div>' +
+          '<div class="thumb">' + badge + (p.video ? '<span class="badge video">▶ Video</span>' : '') + '<img loading="lazy" src="img/' + p.id + '/thumb.jpg" alt=""></div>' +
           '<p class="price">' + (p.estado === "vendido" ? "Vendido" : money(p.precio)) + '</p>' +
           '<p class="title">' + esc(p.titulo) + '</p>' +
           '<p class="loc">' + esc(C.ubicacion) + '</p></a>';
@@ -416,17 +421,31 @@
     /* Detalle */
     var cur = null, idx = 0, lastFocus = null;
     var photo = function (p, i) { return "img/" + p.id + "/" + String(i + 1).padStart(2, "0") + ".jpg"; };
+    /* Diapositivas: fotos + video opcional (va en 2.º lugar) */
+    var slides = function (p) {
+      var list = []; for (var k = 0; k < p.fotos; k++) list.push({ type: "img", src: photo(p, k) });
+      if (p.video) list.splice(Math.min(1, list.length), 0, { type: "video", src: "img/" + p.id + "/video.mp4", poster: "img/" + p.id + "/video-poster.jpg" });
+      return list;
+    };
     function show(i) {
-      idx = (i + cur.fotos) % cur.fotos;
-      var src = photo(cur, idx);
-      $("mainImg").src = src; $("mainImg").alt = cur.titulo + " — foto " + (idx + 1);
-      $("blur").style.backgroundImage = "url('" + src + "')";
-      $("counter").textContent = (idx + 1) + " / " + cur.fotos;
+      var list = slides(cur), n = list.length;
+      idx = (i + n) % n;
+      var sl = list[idx], vid = $("mainVid"), img = $("mainImg");
+      if (sl.type === "video") {
+        img.hidden = true; vid.hidden = false;
+        if (vid.getAttribute("src") !== sl.src) { vid.poster = sl.poster; vid.src = sl.src; }
+        try { var pr = vid.play(); if (pr && pr.catch) pr.catch(function () {}); } catch (e) {}
+        $("blur").style.backgroundImage = "url('" + sl.poster + "')";
+      } else {
+        vid.pause(); vid.hidden = true; img.hidden = false;
+        img.src = sl.src; img.alt = cur.titulo + " — foto " + (idx + 1);
+        $("blur").style.backgroundImage = "url('" + sl.src + "')";
+      }
+      $("counter").textContent = (idx + 1) + " / " + n;
       Array.prototype.forEach.call($("strip").children, function (b, k) { b.classList.toggle("on", k === idx); });
-      var multi = cur.fotos > 1;
+      var multi = n > 1;
       $("prevBtn").style.display = $("nextBtn").style.display = $("counter").style.display = multi ? "" : "none";
-      // precargar la siguiente
-      if (multi) { var im = new Image(); im.src = photo(cur, (idx + 1) % cur.fotos); }
+      var nx = list[(idx + 1) % n]; if (multi && nx.type === "img") { var im = new Image(); im.src = nx.src; }
     }
     function open(id) {
       var p = P.filter(function (x) { return x.id === id; })[0];
@@ -447,8 +466,10 @@
       $("pWa").href = waLink(msg);
       $("pWa").classList.toggle("disabled", p.estado === "vendido");
       $("pWaLbl").textContent = p.estado === "reservado" ? "Avísame si se libera" : p.estado === "vendido" ? "Vendido" : "Lo quiero";
-      $("strip").innerHTML = Array.apply(null, Array(p.fotos)).map(function (_, k) {
-        return '<button aria-label="Ver foto ' + (k + 1) + '"><img loading="lazy" src="' + photo(p, k) + '" alt=""></button>';
+      $("strip").innerHTML = slides(p).map(function (sl, k) {
+        return sl.type === "video"
+          ? '<button class="play" aria-label="Ver video"><img loading="lazy" src="' + sl.poster + '" alt=""></button>'
+          : '<button aria-label="Ver foto ' + (k + 1) + '"><img loading="lazy" src="' + sl.src + '" alt=""></button>';
       }).join("");
       $("modal").classList.add("open"); document.body.style.overflow = "hidden";
       $("modal").scrollTop = 0;
@@ -457,6 +478,7 @@
       document.title = p.titulo + " · Venta por mudanza";
     }
     function close(silent) {
+      try { $("mainVid").pause(); } catch (e) {}
       $("modal").classList.remove("open"); document.body.style.overflow = "";
       document.title = "Venta por mudanza · Cartago";
       cur = null;

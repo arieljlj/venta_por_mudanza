@@ -184,20 +184,23 @@ window.PRODUCTOS = [
   },
   {
     id: "tv-lg-55-4k",
-    titulo: "Televisor LG 55 pulgadas 4K UHD Smart TV",
+    titulo: "Televisor LG 55 pulgadas 4K UHD Smart TV (55UN7100PDA)",
     categoria: "Tecnología",
-    precio: 1100000,
-    precioNuevo: null,
+    precio: 1300000,
+    precioNuevo: 1650000,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
-    fotos: 3,
+    condicion: "Usado - Excelente estado",
+    fotos: 4,
+    video: true,
     destacado: true,
     descripcion:
-      "Smart TV LG de 55 pulgadas, resolución 4K UHD, modelo 55UN7100PDA (fabricado en 2021), con sistema webOS para apps como Netflix y YouTube.\n" +
+      "Smart TV LG de 55 pulgadas (139 cm), modelo 55UN7100PDA, fabricado en febrero de 2021.\n" +
       "\n" +
-      "• Imagen 4K con HDR\n" +
-      "• Control remoto incluido\n" +
-      "• Funcionando perfectamente\n" +
+      "• Pantalla 4K UHD (3840 x 2160) con HDR10 Pro y HLG\n" +
+      "• Procesador Quad Core 4K y sonido Ultra Surround\n" +
+      "• webOS Smart TV con ThinQ AI: Netflix, Disney+, YouTube, Prime Video, Max y más\n" +
+      "• Pantalla en perfecto estado: mira el video con el TV encendido\n" +
+      "• Incluye control remoto estándar y soporte de pared (no incluye las patas de mesa originales)\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
