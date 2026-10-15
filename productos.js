@@ -144,21 +144,24 @@ window.PRODUCTOS = [
   },
   {
     id: "juego-de-alcoba-negro",
-    titulo: "Juego de alcoba 1,60 m cabecero NEGRO: cama + colchón + 2 mesas de noche",
+    titulo: "Juego de alcoba Glam 1,60 m cabecero NEGRO capitoné: cama + colchón + 2 mesas de noche",
     categoria: "Alcoba",
-    precio: 1500000,
+    precio: 1350000,
     precioNuevo: null,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
+    condicion: "Usado - Buen estado (detalle en cabecero)",
     fotos: 5,
     destacado: true,
     descripcion:
-      "Juego de alcoba con cabecero color NEGRO.\n\n" +
-      "• Cama de 1,60 m (queen)\n" +
-      "• Base cama con cabecero capitoné en cuerina negra con detalles tipo cristal\n" +
+      "Juego de alcoba estilo Glam / Neoclásico contemporáneo en color NEGRO.\n" +
+      "\n" +
+      "• Cama queen de 1,60 m: cabecero tapizado en cuerotex negro, capitoné en rombos con botones tipo diamante/cristal, y base cama en el mismo material\n" +
       "• Incluye el colchón\n" +
-      "• 2 mesas de noche negras lacadas con 2 cajones y manijas de cristal\n" +
-      "• Muy buen estado\n\n" +
+      "• 2 mesas de noche lacadas en negro brillante, con 2 cajones cada una y perillas faceteadas tipo cristal que hacen juego con el cabecero\n" +
+      "• Base cama y mesas de noche en excelente estado\n" +
+      "\n" +
+      "Detalle: el cabecero tiene un pequeño rasgado en el tapizado, reparable o fácil de disimular con las almohadas. Por eso se deja a un precio muy accesible.\n" +
+      "\n" +
       "Pregunta por las lámparas y la ropa de cama.\n" +
       "Se vende por viaje al exterior."
   },
