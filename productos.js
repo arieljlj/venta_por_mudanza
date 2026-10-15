@@ -372,16 +372,17 @@ window.PRODUCTOS = [
     id: "lampara-de-pie",
     titulo: "Lámpara de pie para lectura negra",
     categoria: "Decoración",
-    precio: 120000,
-    precioNuevo: null,
+    precio: 95000,
+    precioNuevo: 130000,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
+    condicion: "Usado - Excelente estado",
     fotos: 3,
     destacado: false,
     descripcion:
       "Lámpara de pie color negro, ideal para lectura, con brazo flexible y pantalla metálica orientable.\n" +
       "\n" +
       "• Base redonda estable\n" +
+      "• Diseño moderno y práctico, en excelente estado estético\n" +
       "• Funcionando perfectamente\n" +
       "\n" +
       "Se vende por viaje al exterior."
