@@ -345,16 +345,16 @@ window.PRODUCTOS = [
   },
   {
     id: "cuadro-abstracto",
-    titulo: "Obra original \"Vastedad de tulipanes\" – Daniel Mauricio Córdoba (140 x 140 cm)",
+    titulo: "Cuadro de autor: \"Vastedad de tulipanes\" – Daniel Mauricio Córdoba (140 x 140 cm)",
     categoria: "Decoración",
-    precio: 600000,
+    precio: 2800000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Muy buen estado",
     fotos: 4,
     destacado: true,
     descripcion:
-      "Pintura original firmada por el artista Daniel Mauricio Córdoba (2007), con marco negro.\n" +
+      "OBRA ORIGINAL DE AUTOR, no es reproducción ni impresión. Pintura firmada por el artista Daniel Mauricio Córdoba (2007), con marco negro.\n" +
       "\n" +
       "• Serie: Línea y Matiz\n" +
       "• Título: Vastedad de tulipanes\n" +
@@ -362,7 +362,9 @@ window.PRODUCTOS = [
       "• Dimensiones: 140 x 140 cm\n" +
       "• Código de producción: 0307 (datos del autor al respaldo de la obra)\n" +
       "\n" +
-      "Obra abstracta de gran formato en tonos naranja, rojo y azul. Pieza protagonista para sala, comedor u oficina.\n" +
+      "Obra abstracta de gran formato en tonos naranja, rojo y azul. Pieza protagonista para sala, comedor, oficina o colección de arte.\n" +
+      "\n" +
+      "Precio especial por mudanza, por debajo de su valor comercial como obra de autor. Las fotos incluyen la firma en el frente y la ficha técnica de la obra al respaldo.\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
@@ -404,7 +406,7 @@ window.PRODUCTOS = [
   },
   {
     id: "cama-120-cabecero-negro",
-    titulo: "Cama 1,20 m con cabecero capitoné NEGRO",
+    titulo: "Cama 1,20 m cabecero capitoné NEGRO + colchón + mesa de noche",
     categoria: "Alcoba",
     precio: 700000,
     precioNuevo: null,
@@ -415,6 +417,8 @@ window.PRODUCTOS = [
     descripcion:
       "Cama semidoble de 1,20 m con cabecero y piecero capitoné en tela tipo terciopelo color NEGRO, con marco de espejo en el cabecero.\n" +
       "\n" +
+      "• Incluye el colchón\n" +
+      "• Incluye la mesa de noche negra que aparece en las fotos\n" +
       "• Diseño elegante, ideal para habitación juvenil o de huéspedes\n" +
       "• Muy buen estado\n" +
       "• No incluye los cojines ni la ropa de cama de las fotos\n" +
