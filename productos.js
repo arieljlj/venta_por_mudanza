@@ -210,26 +210,6 @@ window.PRODUCTOS = [
       "Se vende por viaje al exterior."
   },
   {
-    id: "cama-160-cabecero-gris",
-    titulo: "Cama 1,60 m con cabecero capitoné GRIS + colchón",
-    categoria: "Alcoba",
-    precio: 1250000,
-    precioNuevo: null,
-    estado: "disponible",
-    condicion: "Usado - Muy buen estado",
-    fotos: 2,
-    destacado: false,
-    descripcion:
-      "Base cama de 1,60 m (queen) con cabecero y laterales capitoné en cuerina color GRIS.\n" +
-      "\n" +
-      "• Incluye el colchón\n" +
-      "• Diseño elegante y moderno\n" +
-      "• Muy buen estado\n" +
-      "• No incluye los peluches ni la ropa de cama de las fotos\n" +
-      "\n" +
-      "Se vende por viaje al exterior."
-  },
-  {
     id: "impresora-epson-l5590",
     titulo: "Impresora multifuncional Epson EcoTank L5590",
     categoria: "Tecnología",
@@ -365,19 +345,24 @@ window.PRODUCTOS = [
   },
   {
     id: "cuadro-abstracto",
-    titulo: "Cuadro grande pintura abstracta con marco negro",
+    titulo: "Obra original \"Vastedad de tulipanes\" – Daniel Mauricio Córdoba (140 x 140 cm)",
     categoria: "Decoración",
     precio: 600000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Muy buen estado",
-    fotos: 2,
-    destacado: false,
+    fotos: 4,
+    destacado: true,
     descripcion:
-      "Cuadro de gran formato con pintura abstracta en tonos naranja, rojo y azul, con marco negro.\n" +
+      "Pintura original firmada por el artista Daniel Mauricio Córdoba (2007), con marco negro.\n" +
       "\n" +
-      "• Pieza protagonista para sala, comedor u oficina\n" +
-      "• Muy buen estado\n" +
+      "• Serie: Línea y Matiz\n" +
+      "• Título: Vastedad de tulipanes\n" +
+      "• Técnica: mixta sobre lona\n" +
+      "• Dimensiones: 140 x 140 cm\n" +
+      "• Código de producción: 0307 (datos del autor al respaldo de la obra)\n" +
+      "\n" +
+      "Obra abstracta de gran formato en tonos naranja, rojo y azul. Pieza protagonista para sala, comedor u oficina.\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
@@ -413,6 +398,121 @@ window.PRODUCTOS = [
       "Ventilador de pie marca Samurai, color negro, con altura ajustable y oscilación.\n" +
       "\n" +
       "• Varias velocidades\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "cama-120-cabecero-negro",
+    titulo: "Cama 1,20 m con cabecero capitoné NEGRO",
+    categoria: "Alcoba",
+    precio: 700000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 3,
+    destacado: false,
+    descripcion:
+      "Cama semidoble de 1,20 m con cabecero y piecero capitoné en tela tipo terciopelo color NEGRO, con marco de espejo en el cabecero.\n" +
+      "\n" +
+      "• Diseño elegante, ideal para habitación juvenil o de huéspedes\n" +
+      "• Muy buen estado\n" +
+      "• No incluye los cojines ni la ropa de cama de las fotos\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "air-fryer-haceb",
+    titulo: "Freidora de aire (Air Fryer) Haceb",
+    categoria: "Cocina",
+    precio: 180000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 3,
+    destacado: false,
+    descripcion:
+      "Freidora de aire Haceb color negro con acabado cromado, perillas de tiempo y temperatura.\n" +
+      "\n" +
+      "• Cocina sin aceite: papas, pollo, empanadas y más\n" +
+      "• Canasta antiadherente extraíble\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "olla-imusa-speedy-cook",
+    titulo: "Olla multifuncional eléctrica Imusa Speedy Cook 5 L",
+    categoria: "Cocina",
+    precio: 250000,
+    precioNuevo: 429900,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 6,
+    destacado: false,
+    descripcion:
+      "Olla eléctrica multifuncional a presión Imusa Speedy Cook, 5 litros, 900 W (modelo CE222D56).\n" +
+      "\n" +
+      "• Programas: arroz/risotto, granos, pollo, carne, vapor, saltear, estofado/sopa, cocción lenta, hornear y yogurt\n" +
+      "• Función mantener caliente y programación de tiempo\n" +
+      "• Olla interna antiadherente\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "cafetera-capsulas-eva",
+    titulo: "Cafetera de cápsulas EVA (Cápsulas Express) con caja",
+    categoria: "Cocina",
+    precio: 150000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 6,
+    destacado: false,
+    descripcion:
+      "Cafetera de cápsulas EVA de Caffitaly, del sistema Cápsulas Express de Nutresa.\n" +
+      "\n" +
+      "• Prepara café, cappuccino, chocolate y más con cápsulas\n" +
+      "• 3 botones de preparación\n" +
+      "• Se entrega con su caja original\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "chocotera-haceb",
+    titulo: "Chocotera multibebida Haceb Corona Inox",
+    categoria: "Cocina",
+    precio: 130000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 4,
+    destacado: false,
+    descripcion:
+      "Chocotera eléctrica multibebida Haceb Corona Inox, modelo F280R, jarra en acero inoxidable de 600 ml, 600 W.\n" +
+      "\n" +
+      "• Prepara chocolate, café con leche y espuma de leche\n" +
+      "• Jarra removible con tapa\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "licuadora-oster",
+    titulo: "Licuadora Oster Osterizer clásica con vaso de vidrio",
+    categoria: "Cocina",
+    precio: 120000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 2,
+    destacado: false,
+    descripcion:
+      "Licuadora Oster Osterizer clásica, base cromada, 3 velocidades, 600 W, con vaso de vidrio.\n" +
+      "\n" +
+      "• Motor potente y duradero\n" +
       "• Funcionando perfectamente\n" +
       "\n" +
       "Se vende por viaje al exterior."
