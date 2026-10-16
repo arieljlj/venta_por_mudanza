@@ -73,7 +73,7 @@ window.PRODUCTOS = [
       "• Incluye control remoto original y la base metálica de la condensadora\n" +
       "• Kit de tubería de cobre: se entrega tal como está. El técnico que haga la nueva instalación define si se puede reutilizar; si no, el kit nuevo corre por cuenta del comprador\n" +
       "\n" +
-      "El desmonte y la instalación corren por cuenta del comprador.\n" +
+      "El desmonte corre por cuenta del vendedor: se entrega desmontado. La instalación corre por cuenta del comprador.\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
