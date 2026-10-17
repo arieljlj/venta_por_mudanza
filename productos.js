@@ -292,20 +292,24 @@ window.PRODUCTOS = [
   },
   {
     id: "tv-hyundai-32-curvo",
-    titulo: "Televisor Hyundai 32 pulgadas curvo",
+    titulo: "Smart TV Hyundai 32 pulgadas curvo (para repuestos o uso con detalle en pantalla)",
     categoria: "Tecnología",
-    precio: 380000,
+    precio: 150000,
     precioNuevo: null,
     estado: "disponible",
-    condicion: "Usado - Buen estado",
-    fotos: 4,
+    condicion: "Con falla en pantalla (repuestos)",
+    fotos: 6,
+    video: true,
     destacado: false,
     descripcion:
-      "Televisor Hyundai de 32 pulgadas, pantalla curva LED, modelo HYLED3213INTC.\n" +
+      "Smart TV Hyundai de 32 pulgadas, pantalla curva LED HD, modelo HYLED3213INTC. Fabricado en Colombia bajo licencia de Hyundai Corporation.\n" +
       "\n" +
-      "• Entradas HDMI y USB\n" +
-      "• Ideal para habitación o cocina\n" +
-      "• Funcionando perfectamente\n" +
+      "• Enciende, da sonido y las tarjetas internas funcionan\n" +
+      "• Presenta líneas horizontales en la pantalla, como se ve en las fotos y el video\n" +
+      "• Wi-Fi, 2 HDMI, USB, ranura microSD y entrada de antena/cable\n" +
+      "• Incluye sus patas originales\n" +
+      "\n" +
+      "Ideal para técnicos (repuestos: tarjeta principal, fuente, tiras LED, carcasa, control) o como monitor de cámaras de seguridad o para taller. Precio negociable.\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
