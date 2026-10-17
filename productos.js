@@ -545,5 +545,28 @@ window.PRODUCTOS = [
       "• Funcionando perfectamente\n" +
       "\n" +
       "Se vende por viaje al exterior."
+  },
+  {
+    id: "tv-samsung-40",
+    titulo: "Samsung Smart TV 40 pulgadas Full HD (UN40J5200AK)",
+    categoria: "Tecnología",
+    precio: 700000,
+    precioNuevo: 950000,
+    estado: "disponible",
+    condicion: "Usado - Excelente estado",
+    fotos: 3,
+    video: true,
+    destacado: false,
+    descripcion:
+      "Samsung Smart TV de 40 pulgadas (101 cm) Full HD, modelo UN40J5200AK, hecho en México.\n" +
+      "\n" +
+      "• Resolución Full HD 1080p (1920 x 1080)\n" +
+      "• Smart TV con Smart Hub: acceso a aplicaciones de streaming\n" +
+      "• Wi-Fi integrado y puerto Ethernet\n" +
+      "• 2 puertos HDMI, 1 USB, entrada de componente/AV y salida de audio óptica\n" +
+      "• Perfecto estado funcional y estético: mira el video con el TV encendido\n" +
+      "• Incluye control remoto original, cable de poder y soporte para colgar en la pared\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
   }
 ];
