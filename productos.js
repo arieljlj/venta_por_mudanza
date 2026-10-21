@@ -117,19 +117,23 @@ window.PRODUCTOS = [
   },
   {
     id: "comedor-4-puestos",
-    titulo: "Comedor de 4 puestos con vidrio y sillas tapizadas",
+    titulo: "Juego de comedor moderno 4 puestos con vidrio protector y sillas poltrona acanaladas",
     categoria: "Sala y comedor",
-    precio: 1100000,
-    precioNuevo: null,
+    precio: 1650000,
+    precioNuevo: 2200000,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
+    condicion: "Usado - Excelente estado",
     fotos: 3,
     destacado: false,
     descripcion:
-      "Comedor cuadrado de 4 puestos en color blanco con cubierta de vidrio.\n\n" +
-      "• 4 sillas tapizadas color perla, espaldar redondeado y patas de madera\n" +
-      "• Ideal para apartamento\n" +
-      "• Muy buen estado\n\n" +
+      "Juego de comedor moderno de 4 puestos, estilo Glam contemporáneo, en excelente estado.\n" +
+      "\n" +
+      "• Mesa de madera lacada en blanco/marfil con cubierta de vidrio protector a la medida (protege de derrames, calor y rayones)\n" +
+      "• 4 sillas tipo poltrona tapizadas en tela suave color crema, con espaldar alto acanalado\n" +
+      "• Patas de madera en tono miel que dan estabilidad y contraste\n" +
+      "• Hace juego con las poltronas del juego de sala (también a la venta)\n" +
+      "• Limpio, vidrio intacto, muy cómodo y elegante\n" +
+      "\n" +
       "Se vende por viaje al exterior."
   },
   {
