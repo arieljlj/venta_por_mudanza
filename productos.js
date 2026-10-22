@@ -79,18 +79,21 @@ window.PRODUCTOS = [
   },
   {
     id: "microondas-whirlpool",
-    titulo: "Horno microondas Whirlpool plateado",
+    titulo: "Horno microondas Whirlpool plateado (WMS07ZD)",
     categoria: "Electrodomésticos",
     precio: 185000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Buen estado",
-    fotos: 2,
+    fotos: 5,
     destacado: false,
     descripcion:
-      "Horno microondas Whirlpool color plateado con panel digital, menú de cocción automática (arroz, vegetales, pasta, palomitas, pescado) y descongelado rápido.\n\n" +
+      "Horno microondas Whirlpool color plateado, modelo WMS07ZD, 700 W, con panel digital.\n" +
+      "\n" +
+      "• Menú de cocción automática (arroz, vegetales, pasta, palomitas, pescado) y descongelado rápido\n" +
       "• Plato giratorio de vidrio\n" +
-      "• Funcionando perfectamente\n\n" +
+      "• Funcionando perfectamente\n" +
+      "\n" +
       "Se vende por viaje al exterior."
   },
   {
@@ -574,6 +577,65 @@ window.PRODUCTOS = [
       "• 2 puertos HDMI, 1 USB, entrada de componente/AV y salida de audio óptica\n" +
       "• Perfecto estado funcional y estético: mira el video con el TV encendido\n" +
       "• Incluye control remoto original, cable de poder y soporte para colgar en la pared\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "tv-samsung-49",
+    titulo: "Samsung Smart TV 49 pulgadas Full HD (UN49J5290AK)",
+    categoria: "Tecnología",
+    precio: 900000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Excelente estado",
+    fotos: 4,
+    video: true,
+    destacado: false,
+    descripcion:
+      "Samsung Smart TV de 49 pulgadas Full HD, modelo UN49J5290AK, hecho en México.\n" +
+      "\n" +
+      "• Resolución Full HD 1080p\n" +
+      "• Smart TV con Wi-Fi y aplicaciones de streaming\n" +
+      "• Pantalla en excelente estado: mira el video con el TV encendido\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "bicicleta-700c",
+    titulo: "Bicicleta urbana rin 700c, 21 velocidades, frenos de disco",
+    categoria: "Juguetes y deporte",
+    precio: 550000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 10,
+    destacado: false,
+    descripcion:
+      "Bicicleta urbana/híbrida color negro con detalles fucsia, rin 700c (llantas 700x38c).\n" +
+      "\n" +
+      "• 21 velocidades (3 platos x 7 piñones) con mandos de cambio en el manubrio\n" +
+      "• Frenos de disco mecánicos adelante y atrás\n" +
+      "• Suspensión delantera\n" +
+      "• Sillín y potencia marca Venzo\n" +
+      "• Muy buen estado\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "pista-hot-wheels",
+    titulo: "Pista Hot Wheels Ultimate Garage (con dragón)",
+    categoria: "Juguetes y deporte",
+    precio: 300000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Muy buen estado",
+    fotos: 3,
+    destacado: false,
+    descripcion:
+      "Pista Hot Wheels Ultimate Garage, garaje de varios niveles con dragón, rampas, loop y elevador.\n" +
+      "\n" +
+      "• Gran tamaño, ideal como regalo\n" +
+      "• Muy buen estado\n" +
       "\n" +
       "Se vende por viaje al exterior."
   }
