@@ -584,59 +584,67 @@ window.PRODUCTOS = [
     id: "tv-samsung-49",
     titulo: "Samsung Smart TV 49 pulgadas Full HD (UN49J5290AK)",
     categoria: "Tecnología",
-    precio: 900000,
-    precioNuevo: null,
+    precio: 950000,
+    precioNuevo: 1300000,
     estado: "disponible",
     condicion: "Usado - Excelente estado",
     fotos: 4,
     video: true,
     destacado: false,
     descripcion:
-      "Samsung Smart TV de 49 pulgadas Full HD, modelo UN49J5290AK, hecho en México.\n" +
+      "Samsung Smart TV de 49 pulgadas (123 cm) Full HD, modelo UN49J5290AK, hecho en México.\n" +
       "\n" +
-      "• Resolución Full HD 1080p\n" +
-      "• Smart TV con Wi-Fi y aplicaciones de streaming\n" +
-      "• Pantalla en excelente estado: mira el video con el TV encendido\n" +
+      "• Resolución Full HD 1080p (1920 x 1080)\n" +
+      "• Smart Hub con Wi-Fi, puerto Ethernet y acceso a plataformas de streaming\n" +
+      "• Puertos HDMI y USB, entrada de componente/AV y salida de audio óptica\n" +
+      "• Pantalla impecable, sin líneas ni manchas: mira el video con el TV encendido\n" +
+      "• Incluye control remoto original, cable de poder y soporte de pared\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
   {
     id: "bicicleta-700c",
-    titulo: "Bicicleta urbana rin 700c, 21 velocidades, frenos de disco",
+    titulo: "Bicicleta urbana/híbrida GW aluminio rin 700c, frenos de disco, 21 velocidades",
     categoria: "Juguetes y deporte",
-    precio: 550000,
-    precioNuevo: null,
+    precio: 650000,
+    precioNuevo: 800000,
     estado: "disponible",
     condicion: "Usado - Muy buen estado",
     fotos: 10,
     destacado: false,
     descripcion:
-      "Bicicleta urbana/híbrida color negro con detalles fucsia, rin 700c (llantas 700x38c).\n" +
+      "Bicicleta urbana/híbrida GW en aluminio, rin 700c, negro mate con detalles fucsia. Muy liviana, cómoda y lista para rodar.\n" +
       "\n" +
-      "• 21 velocidades (3 platos x 7 piñones) con mandos de cambio en el manubrio\n" +
-      "• Frenos de disco mecánicos adelante y atrás\n" +
+      "• Llantas Kenda Kolonizer 700x38C: más ligera y rápida que una bicicleta de montaña tradicional, sirve en pavimento y destapado suave\n" +
+      "• Frenos de disco mecánicos OnTrail (discos de 160 mm)\n" +
+      "• 21 velocidades (3x7)\n" +
+      "• Potencia Venzo y espaciadores anodizados en morado\n" +
       "• Suspensión delantera\n" +
-      "• Sillín y potencia marca Venzo\n" +
-      "• Muy buen estado\n" +
+      "• Limpia, bien ajustada y con las llantas en muy buen estado\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
   {
     id: "pista-hot-wheels",
-    titulo: "Pista Hot Wheels Ultimate Garage (con dragón)",
+    titulo: "Pista Hot Wheels City Ultimate Garage original con dragón (GJL14)",
     categoria: "Juguetes y deporte",
-    precio: 300000,
-    precioNuevo: null,
+    precio: 500000,
+    precioNuevo: 850000,
     estado: "disponible",
-    condicion: "Usado - Muy buen estado",
+    condicion: "Usado - Excelente estado",
     fotos: 3,
     destacado: false,
     descripcion:
-      "Pista Hot Wheels Ultimate Garage, garaje de varios niveles con dragón, rampas, loop y elevador.\n" +
+      "Pista Hot Wheels City Ultimate Garage original (referencia GJL14), el mega garaje con dragón.\n" +
       "\n" +
-      "• Gran tamaño, ideal como regalo\n" +
-      "• Muy buen estado\n" +
+      "• Gran tamaño: casi 1 metro de alto\n" +
+      "• Torre de 4 niveles con espacio para más de 100 carros\n" +
+      "• Looping doble, pistas en espiral y elevador manual con palanca\n" +
+      "• Dragón robot en la cima que \"devora\" los carros\n" +
+      "• Estructura sólida, en perfecto estado estético y mecánico\n" +
+      "• Ideal para regalo\n" +
       "\n" +
+      "Precio negociable.\n" +
       "Se vende por viaje al exterior."
   }
 ];
