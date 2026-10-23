@@ -114,7 +114,7 @@ window.PRODUCTOS = [
       "• Juego de 2 mesas de centro nido circulares, cubierta blanca y base metálica\n" +
       "• Excelente estado: sin desgaste visible ni manchas en las telas\n" +
       "\n" +
-      "Precio por el combo completo. También se vende por separado: sofá $950.000, par de poltronas $650.000, mesas nido $200.000.\n" +
+      "Precio por el combo completo.\n" +
       "\n" +
       "Se vende por viaje al exterior."
   },
