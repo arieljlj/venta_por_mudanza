@@ -303,7 +303,7 @@ window.PRODUCTOS = [
     categoria: "Tecnología",
     precio: 120000,
     precioNuevo: null,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Con falla en pantalla (repuestos)",
     fotos: 6,
     video: true,
