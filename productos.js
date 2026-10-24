@@ -102,7 +102,7 @@ window.PRODUCTOS = [
     categoria: "Sala y comedor",
     precio: 1400000,
     precioNuevo: 3200000,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Excelente estado",
     fotos: 9,
     destacado: true,
