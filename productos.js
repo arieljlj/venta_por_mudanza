@@ -384,7 +384,7 @@ window.PRODUCTOS = [
     categoria: "Decoración",
     precio: 1600000,
     precioNuevo: null,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Muy buen estado",
     fotos: 4,
     destacado: true,
