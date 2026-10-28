@@ -22,7 +22,13 @@ Efectivo en euros (€), efectivo en pesos colombianos o llave Bre-B. Se paga el
 
 ## Vista previa en WhatsApp
 
-Al publicar, `scripts/generar-paginas.js` crea una página por artículo en `p/<id>/` con su propia foto, título y precio. Así, al compartir un artículo por WhatsApp o Facebook se ve la foto correcta. Esto pasa solo; no hay que hacer nada.
+Al publicar, `scripts/generar-paginas.js` crea una página por artículo en `p/<id>/` con su propia foto, título, precio y datos estructurados. También genera `sitemap.xml` con la portada y los artículos disponibles o reservados; los vendidos no se incluyen en el sitemap. Así, buscadores y redes pueden descubrir páginas específicas y al compartir un artículo por WhatsApp o Facebook se ve la foto correcta. Esto pasa solo; no hay que hacer nada.
+
+## SEO y Facebook Marketplace
+
+El sitio incluye metadatos para compartir, páginas indexables por producto, datos estructurados y un sitemap. Esto ayuda a que los buscadores web entiendan el catálogo, pero no permite controlar ni mejorar directamente la posición de los artículos en las búsquedas internas de Facebook Marketplace.
+
+El remarketing requiere configurar campañas en Meta Ads y una audiencia permitida, por ejemplo, de personas que visitaron este sitio. No permite identificar desde aquí a quienes buscaron productos similares en Marketplace ni garantiza que un anuncio aparezca allí. No se instala un píxel de seguimiento sin la configuración de Meta y los avisos/consentimientos de privacidad correspondientes.
 
 ## Videos
 
