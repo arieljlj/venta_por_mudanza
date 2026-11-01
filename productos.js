@@ -646,5 +646,92 @@ window.PRODUCTOS = [
       "\n" +
       "Precio negociable.\n" +
       "Se vende por viaje al exterior."
+  },
+  {
+    id: "combo-nerf",
+    titulo: "Combo 2 Pistolas Nerf Elite 2.0 (Shockwave RD-15 + Prospect QS-4)",
+    categoria: "Juguetes y deporte",
+    precio: 130000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Excelente estado",
+    fotos: 8,
+    destacado: false,
+    descripcion:
+      "Combo de 2 lanzadores Nerf Elite 2.0 originales de Hasbro, en perfecto estado estético y de funcionamiento.\n" +
+      "\n" +
+      "• Nerf Shockwave RD-15: lanzador de bombeo con tambor giratorio continuo para 15 dardos y rieles tácticos de personalización\n" +
+      "• Nerf Prospect QS-4: lanzador compacto de 4 disparos rápidos con mira telescópica integrada, ideal como arma secundaria\n" +
+      "• Se entregan con sus dardos originales de espuma Nerf\n" +
+      "\n" +
+      "Mecanismos 100% funcionales, con excelente potencia de disparo y listos para jugar.\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "pista-mario-kart",
+    titulo: "Pista Hot Wheels Mario Kart: Castillo de Bowser (Original Mattel - Ref. GNM22)",
+    categoria: "Juguetes y deporte",
+    precio: 280000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Excelente estado",
+    fotos: 5,
+    destacado: false,
+    descripcion:
+      "Pista original Hot Wheels línea Mario Kart \"Castillo de Bowser\" en excelente estado.\n" +
+      "\n" +
+      "• Incluye: estructura completa del castillo con escudos de Bowser, figura frontal de Huesitos (Dry Bones), gran looping rojo de alta velocidad y lanzador de disparo\n" +
+      "• Mecanismo interactivo: trampa lateral de Bala Bill (Bullet Bill) 100% funcional que sale disparada al accionar el botón\n" +
+      "• Compatibilidad: diseñada para vehículos Die-Cast escala 1:64 de la colección Hot Wheels Mario Kart\n" +
+      "\n" +
+      "Pista limpia, completa y sin partes rotas.\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "pista-monster-trucks",
+    titulo: "Pista Hot Wheels Monster Trucks: Arena de Volcán T-Rex (Ref. GKP48)",
+    categoria: "Juguetes y deporte",
+    precio: 390000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Buen estado (palanca trasera trabada)",
+    fotos: 5,
+    video: true,
+    destacado: false,
+    descripcion:
+      "Mega pista Hot Wheels de la línea oficial Monster Trucks \"Arena de Volcán T-Rex\".\n" +
+      "\n" +
+      "• Mecanismo principal: volcán central que abre sus rocas al activar el sistema y revela la cabeza esqueleto del T-Rex (míralo en el video)\n" +
+      "• Acrobacias y juego: gran bucle/looping doble rojo, rampa de salto amarilla y zona de entrenamiento en arena verde\n" +
+      "• Compatibilidad: diseñada tanto para camionetas Monster Trucks como para vehículos Hot Wheels escala 1:64\n" +
+      "• Estructura limpia y completa\n" +
+      "\n" +
+      "Detalle: la palanca amarilla trasera está trabada y requiere revisión; el mecanismo del volcán y los bucles funcionan perfectamente.\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
+    id: "pista-desafio-altura",
+    titulo: "Pista Hot Wheels Action: Desafío de Altura / Loop & Launch (Ref. GRW39)",
+    categoria: "Juguetes y deporte",
+    precio: 160000,
+    precioNuevo: null,
+    estado: "disponible",
+    condicion: "Usado - Excelente estado",
+    fotos: 5,
+    destacado: false,
+    descripcion:
+      "Pista original Hot Wheels Action \"Desafío de Altura\" (Loop & Launch) en excelente estado.\n" +
+      "\n" +
+      "• Altura: torre de competencia vertical ajustable de 80 cm de alto\n" +
+      "• Modo de juego: 2 carriles paralelos (naranja y azul) con lanzadores manuales para competir en simultáneo de a 2 jugadores\n" +
+      "• Marcadores: incluye marcadores de puntos abatibles (5 y 10 puntos) y la jaula trampa superior que atrapa el auto ganador\n" +
+      "• Diseño: plegable y fácil de guardar, ocupando muy poco espacio\n" +
+      "\n" +
+      "100% completa, limpia y lista para usar.\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
   }
 ];
