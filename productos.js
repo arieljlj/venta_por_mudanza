@@ -168,7 +168,7 @@ window.PRODUCTOS = [
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Buen estado (detalle en cabecero)",
-    fotos: 5,
+    fotos: 7,
     destacado: true,
     descripcion:
       "Juego de alcoba estilo Glam / Neoclásico contemporáneo en color NEGRO.\n" +
