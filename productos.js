@@ -17,19 +17,24 @@ window.CONFIG = {
 window.PRODUCTOS = [
   {
     id: "nevera-samsung",
-    titulo: "Nevera Samsung No Frost con dispensador de agua",
+    titulo: "Nevera Samsung Bottom Freezer 432 L No Frost Negro Inox (RL4363SBABS)",
     categoria: "Electrodomésticos",
-    precio: 1750000,
-    precioNuevo: 2850000,
+    precio: 2200000,
+    precioNuevo: 3800000,
     estado: "disponible",
     condicion: "Usado - Como nuevo",
-    fotos: 7,
+    fotos: 9,
     destacado: true,
     descripcion:
-      "Nevera Samsung de congelador inferior, acabado negro inox, tecnología No Frost (no forma escarcha) y dispensador de agua en la puerta.\n\n" +
-      "• Congelador inferior con cajones\n" +
-      "• Bandejas de vidrio y amplios compartimientos en la puerta\n" +
-      "• Funcionando perfectamente, se entrega limpia y vacía\n\n" +
+      "Nevera Samsung de alta gama con congelador inferior (Bottom Freezer), panel digital de control exterior y dispensador de agua en la puerta. Acabado elegante en acero inoxidable negro (Black Stainless Steel).\n\n" +
+      "• Modelo: RL4363SBABS · Fabricada en Tailandia\n" +
+      "• Capacidad real: 432 litros netos (471 L brutos)\n" +
+      "• Medidas: 1,85 m de alto x 70 cm de ancho x 70,5 cm de profundidad (83 kg)\n" +
+      "• Tecnología: Digital Inverter (ahorro de energía y silenciosa) + No Frost (no forma escarcha)\n" +
+      "• Eléctrica: 120 V / 60 Hz · Gas refrigerante R-600a (ecológico y de alta eficiencia)\n" +
+      "• Panel digital: control independiente de temperatura del refrigerador y del congelador, congelación rápida (Power Freeze), modo Vacaciones, alarma de puerta abierta y sensores inteligentes (Smart Sensor)\n" +
+      "• Bandejas de vidrio, amplios compartimientos en la puerta y congelador inferior con cajones\n\n" +
+      "En excelente estado estético y funcional. Funcionando al 100%, se entrega limpia y vacía.\n\n" +
       "Se vende por viaje al exterior."
   },
   {
