@@ -329,7 +329,7 @@ window.PRODUCTOS = [
     id: "escritorio-marron-silla",
     titulo: "Escritorio madera con pata de vidrio + silla ergonómica",
     categoria: "Oficina",
-    precio: 350000,
+    precio: 400000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Muy buen estado",
