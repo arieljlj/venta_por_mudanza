@@ -27,13 +27,18 @@ window.PRODUCTOS = [
     destacado: true,
     descripcion:
       "Nevera Samsung de alta gama con congelador inferior (Bottom Freezer), panel digital de control exterior y dispensador de agua en la puerta. Acabado elegante en acero inoxidable negro (Black Stainless Steel).\n\n" +
-      "• Modelo: RL4363SBABS · Fabricada en Tailandia\n" +
-      "• Capacidad real: 432 litros netos (471 L brutos)\n" +
-      "• Medidas: 1,85 m de alto x 70 cm de ancho x 70,5 cm de profundidad (83 kg)\n" +
-      "• Tecnología: Digital Inverter (ahorro de energía y silenciosa) + No Frost (no forma escarcha)\n" +
-      "• Eléctrica: 120 V / 60 Hz · Gas refrigerante R-600a (ecológico y de alta eficiencia)\n" +
-      "• Panel digital: control independiente de temperatura del refrigerador y del congelador, congelación rápida (Power Freeze), modo Vacaciones, alarma de puerta abierta y sensores inteligentes (Smart Sensor)\n" +
-      "• Bandejas de vidrio, amplios compartimientos en la puerta y congelador inferior con cajones\n\n" +
+      "• Modelo exacto: RL4363SBABS (código Colombia: RL4363SBABS/CL) · Fabricada en Tailandia (Thai Samsung Electronics)\n" +
+      "• Capacidad real: 432 litros netos de almacenamiento (471 L volumen bruto)\n" +
+      "• Dimensiones físicas: 1,85 m de alto x 70 cm de ancho x 70,5 cm de profundidad · Peso neto: 83 kg\n" +
+      "• Tecnología: Digital Inverter (alta eficiencia energética y silenciosa) + No Frost (sin escarcha)\n" +
+      "• Especificaciones eléctricas: 120 V / 60 Hz · Consumo descongelamiento: 185 W · Gas refrigerante ecológico R-600a\n" +
+      "• Panel digital táctil exterior:\n" +
+      "   - Fridge: Control independiente de temperatura del refrigerador\n" +
+      "   - Freezer / Power Freeze: Control del congelador y congelación rápida (3 seg)\n" +
+      "   - Vacation: Modo Vacaciones para ahorro energético\n" +
+      "   - Alarm: Alarma sonora de puerta abierta\n" +
+      "   - Smart Sensor: Sensores inteligentes que optimizan el consumo según uso y ambiente\n" +
+      "• Interior: Bandejas de vidrio templado, amplios compartimientos en puerta y congelador inferior con cajones organizadores\n\n" +
       "En excelente estado estético y funcional. Funcionando al 100%, se entrega limpia y vacía.\n\n" +
       "Se vende por viaje al exterior."
   },
