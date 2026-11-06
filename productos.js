@@ -336,7 +336,7 @@ window.PRODUCTOS = [
     categoria: "Oficina",
     precio: 320000,
     precioNuevo: null,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Muy buen estado",
     fotos: 2,
     destacado: false,
