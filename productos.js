@@ -21,7 +21,7 @@ window.PRODUCTOS = [
     categoria: "Electrodomésticos",
     precio: 1550000,
     precioNuevo: 3800000,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Como nuevo",
     fotos: 9,
     destacado: true,
