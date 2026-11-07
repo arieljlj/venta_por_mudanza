@@ -616,7 +616,7 @@ window.PRODUCTOS = [
     id: "bicicleta-700c",
     titulo: "Bicicleta urbana/híbrida GW aluminio rin 700c, frenos de disco, 21 velocidades",
     categoria: "Juguetes y deporte",
-    precio: 480000,
+    precio: 380000,
     precioNuevo: 800000,
     estado: "disponible",
     condicion: "Usado - Muy buen estado",
