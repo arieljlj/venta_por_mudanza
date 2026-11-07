@@ -166,6 +166,25 @@ window.PRODUCTOS = [
       "Se vende por viaje al exterior."
   },
   {
+    id: "cama-160-cabecero-gris",
+    titulo: "Juego de Cama Queen 1,60 m Capitonada Gris + 2 Mesas de Noche con Vidrio",
+    categoria: "Alcoba",
+    precio: 1550000,
+    precioNuevo: 2700000,
+    estado: "disponible",
+    condicion: "Usado - Como nuevo",
+    fotos: 5,
+    destacado: true,
+    descripcion:
+      "Espectacular juego de alcoba completo en excelente estado estético y estructural:\n\n" +
+      "• Cama Queen Size (1,60 m x 1,90 m / 2,00 m): cabecero alto y marco inferior completo totalmente tapizados en elegante diseño Capitoné (plisado con botones profundos) en color gris plomo / carbón. Estructura firme, robusta tipo poltrona / hotelera, limpia y sin rasgaduras.\n" +
+      "• 2 Mesas de noche auxiliares: estructura modular tipo nicho en acabado blanco satinado con espacio abierto de almacenamiento inferior y tope protector en vidrio / cristal.\n" +
+      "• Incluye colchón, almohadas y fundas visibles en la fotografía (a consideración del cliente).\n" +
+      "• No incluye la decoración de las mesas auxiliares (teléfono, porcelanas, etc.).\n\n" +
+      "Muebles muy bien cuidados, limpios y listos para armar y usar en tu habitación principal.\n\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
     id: "juego-de-alcoba-negro",
     titulo: "Juego de alcoba Glam 1,60 m cabecero NEGRO capitoné: cama + colchón + 2 mesas de noche",
     categoria: "Alcoba",
