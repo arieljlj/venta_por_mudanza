@@ -703,7 +703,7 @@ window.PRODUCTOS = [
     id: "pista-monster-trucks",
     titulo: "Pista Hot Wheels Monster Trucks: Arena de Volcán T-Rex (Ref. GKP48)",
     categoria: "Juguetes y deporte",
-    precio: 220000,
+    precio: 180000,
     precioNuevo: null,
     estado: "disponible",
     condicion: "Usado - Buen estado (palanca trasera trabada)",
