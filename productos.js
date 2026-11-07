@@ -408,6 +408,29 @@ window.PRODUCTOS = [
       "Se vende por viaje al exterior."
   },
   {
+    id: "espejo-decorativo",
+    titulo: "Espejo Decorativo Grande de Pared 1.60 m x 80 cm Marco Mosaico de Cristal",
+    categoria: "Decoración",
+    precio: 480000,
+    precioNuevo: 850000,
+    estado: "disponible",
+    condicion: "Usado - Excelente estado",
+    fotos: 3,
+    destacado: true,
+    descripcion:
+      "Hermoso espejo decorativo de gran formato en excelente estado estético:\n" +
+      "\n" +
+      "• Medidas: 1.60 m de largo x 80 cm de alto.\n" +
+      "• Diseño Glam / Contemporáneo: marco decorativo elaborado con un elegante mosaico de teselas de espejo reflectante en acabado cromo/plata, que captan y distribuyen la luz en el espacio.\n" +
+      "• Acabado de marco: bisel interno pulido con cuadrícula de micro-espejos perfectamente alineados.\n" +
+      "• Versatilidad: apto para instalación horizontal sobre buffet, consola o sofá de sala, o instalación vertical en hall de entrada o vestidor.\n" +
+      "• Calidad y estado: cristal central e incrustaciones del marco en impecable estado estético, 100% intacto, sin piezas faltantes, fisuras ni manchas de humedad en el plateado.\n" +
+      "\n" +
+      "Aporta gran elegancia, brillo y amplitud a cualquier espacio del hogar.\n" +
+      "\n" +
+      "Se vende por viaje al exterior."
+  },
+  {
     id: "cuadro-abstracto",
     titulo: "Cuadro de autor: \"Vastedad de tulipanes\" – Daniel Mauricio Córdoba (140 x 140 cm)",
     categoria: "Decoración",
