@@ -13,6 +13,7 @@ fs.rmSync(path.join(root, "p"), { recursive: true, force: true });
 const availability = {
   disponible: "https://schema.org/InStock",
   reservado: "https://schema.org/LimitedAvailability",
+  pendiente: "https://schema.org/LimitedAvailability",
   vendido: "https://schema.org/OutOfStock"
 };
 const xmlEsc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
@@ -20,7 +21,7 @@ const sitemapUrls = [`  <url><loc>${xmlEsc(C.sitio)}</loc></url>`];
 for (const p of P) {
   const url = C.sitio + "p/" + p.id + "/";
   const img = C.sitio + "img/" + p.id + "/" + (fs.existsSync(path.join(root, "img", p.id, "og.jpg")) ? "og.jpg" : "01.jpg");
-  const precio = p.estado === "vendido" ? "VENDIDO" : money(p.precio) + (p.estado === "reservado" ? " (reservado)" : "");
+  const precio = p.estado === "vendido" ? "VENDIDO" : money(p.precio) + (p.estado === "reservado" ? " (reservado)" : p.estado === "pendiente" ? " (pendiente)" : "");
   const title = p.titulo + " · " + precio;
   const desc = p.descripcion.split("\n").find(Boolean) + " En " + C.ubicacion + ". " + C.entrega + ".";
   const product = {

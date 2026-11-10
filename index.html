@@ -136,6 +136,7 @@
       font-size: 12px; font-weight: 700; letter-spacing: .2px; background: rgba(0,0,0,.72); color: #fff;
     }
     .badge.reservado { background: var(--warn); color: #000; }
+    .badge.pendiente { background: #fd7e14; color: #fff; }
     .badge.vendido { background: var(--sold); }
     .item.is-vendido .thumb img { filter: grayscale(1) opacity(.6); }
     .price { margin: 8px 2px 0; font-size: 17px; font-weight: 700; display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
@@ -183,6 +184,7 @@
     .panel .meta { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
     .status-pill { display: inline-block; padding: 3px 8px; border-radius: 6px; font-size: 13px; font-weight: 700; margin-bottom: 12px; }
     .status-pill.reservado { background: #fff4d6; color: #7a5600; }
+    .status-pill.pendiente { background: #ffe8cc; color: #d9480f; }
     .status-pill.vendido { background: var(--chip); color: var(--sold); }
     .cta { display: flex; gap: 8px; margin: 0 0 20px; }
     .btn-wa {
@@ -352,7 +354,7 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="productos.js?v=20261108-1"></script>
+  <script src="productos.js?v=20261109-1"></script>
   <script>
   (function () {
     var C = window.CONFIG, P = window.PRODUCTOS || [];
@@ -403,7 +405,7 @@
 
     /* Grilla */
     var norm = function (s) { return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); };
-    var rank = { disponible: 0, reservado: 1, vendido: 2 };
+    var rank = { disponible: 0, reservado: 1, pendiente: 2, vendido: 3 };
     function renderGrid() {
       var q = norm(state.q.trim());
       var list = P.filter(function (p) {
@@ -411,7 +413,7 @@
                (!q || norm(p.titulo + " " + p.descripcion + " " + p.categoria).indexOf(q) >= 0);
       });
       list.sort(function (a, b) {
-        var r = rank[a.estado] - rank[b.estado]; if (r) return r;
+        var r = (rank[a.estado] ?? 0) - (rank[b.estado] ?? 0); if (r) return r;
         if (state.sort === "asc") return a.precio - b.precio;
         if (state.sort === "desc") return b.precio - a.precio;
         return (b.destacado ? 1 : 0) - (a.destacado ? 1 : 0);
@@ -420,6 +422,7 @@
       if (!list.length) { $("grid").innerHTML = '<p class="empty">No encontré artículos con esa búsqueda.</p>'; return; }
       $("grid").innerHTML = list.map(function (p) {
         var badge = p.estado === "reservado" ? '<span class="badge reservado">Reservado</span>' :
+                    p.estado === "pendiente" ? '<span class="badge pendiente">Pendiente</span>' :
                     p.estado === "vendido" ? '<span class="badge vendido">Vendido</span>' : "";
         return '<a class="item is-' + p.estado + '" href="#' + p.id + '" aria-label="' + esc(p.titulo) + ', ' + money(p.precio) + '">' +
           '<div class="thumb">' + badge + (p.video ? '<span class="badge video">▶ Video</span>' : '') + '<img loading="lazy" src="img/' + p.id + '/thumb.jpg" alt=""></div>' +
@@ -469,16 +472,19 @@
         (p.precioNuevo && p.estado !== "vendido" ? ' <s>Nuevo: ' + money(p.precioNuevo) + '</s>' : "");
       $("pMeta").textContent = "Publicado en " + C.ubicacion + " · " + C.entrega;
       $("pStatus").innerHTML = p.estado === "reservado" ? '<span class="status-pill reservado">Reservado · puedes quedar en lista de espera</span>' :
+                               p.estado === "pendiente" ? '<span class="status-pill pendiente">Pendiente · con abono previo, pendiente de entrega</span>' :
                                p.estado === "vendido" ? '<span class="status-pill vendido">Este artículo ya se vendió</span>' : "";
       $("pDetails").innerHTML = "<dt>Estado</dt><dd>" + esc(p.condicion) + "</dd><dt>Categoría</dt><dd>" + esc(p.categoria) + "</dd><dt>Entrega</dt><dd>5 al 10 de noviembre</dd>";
       $("pDesc").textContent = p.descripcion;
       $("pPay").innerHTML = "<strong>Medios de pago</strong>" + esc(C.pagos.join(" · ")) + "<br>" + esc(C.condicionesPago);
       var msg = p.estado === "reservado"
         ? "Hola Jorge, vi que " + p.titulo + " está reservado. Si se libera, me interesa. " + itemUrl(p)
+        : p.estado === "pendiente"
+        ? "Hola Jorge, vi que " + p.titulo + " está pendiente de entrega. Si no se concreta, me interesa. " + itemUrl(p)
         : "Hola Jorge, ¡lo quiero! Me interesa: " + p.titulo + " (" + money(p.precio) + "). ¿Sigue disponible? " + itemUrl(p);
       $("pWa").href = waLink(msg);
       $("pWa").classList.toggle("disabled", p.estado === "vendido");
-      $("pWaLbl").textContent = p.estado === "reservado" ? "Avísame si se libera" : p.estado === "vendido" ? "Vendido" : "Lo quiero";
+      $("pWaLbl").textContent = p.estado === "reservado" || p.estado === "pendiente" ? "Avísame si se libera" : p.estado === "vendido" ? "Vendido" : "Lo quiero";
       $("strip").innerHTML = slides(p).map(function (sl, k) {
         return sl.type === "video"
           ? '<button class="play" aria-label="Ver video"><img loading="lazy" src="' + sl.poster + '" alt=""></button>'

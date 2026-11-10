@@ -1,7 +1,7 @@
 /*
   CATÁLOGO — edita este archivo para cambiar precios, textos o estado.
 
-  estado: "disponible" | "reservado" | "vendido"
+  estado: "disponible" | "reservado" | "pendiente" | "vendido"
   precio: número en pesos colombianos, sin puntos (ej. 850000)
   fotos: cantidad de fotos en la carpeta img/<id>/ (01.jpg, 02.jpg, ...)
 */
@@ -93,7 +93,7 @@ window.PRODUCTOS = [
     categoria: "Electrodomésticos",
     precio: 130000,
     precioNuevo: null,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Buen estado",
     fotos: 5,
     destacado: false,
@@ -294,7 +294,7 @@ window.PRODUCTOS = [
     categoria: "Tecnología",
     precio: 250000,
     precioNuevo: null,
-    estado: "disponible",
+    estado: "pendiente",
     condicion: "Usado - Como nuevo",
     fotos: 5,
     destacado: false,
@@ -597,7 +597,7 @@ window.PRODUCTOS = [
     categoria: "Cocina",
     precio: 130000,
     precioNuevo: null,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Muy buen estado",
     fotos: 2,
     destacado: false,

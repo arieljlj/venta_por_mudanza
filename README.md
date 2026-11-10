@@ -8,7 +8,7 @@ Sitio publicado: https://arieljlj.github.io/venta_por_mudanza/
 Todo el contenido está en **`productos.js`**. Desde GitHub: abre el archivo, toca el lápiz (✏️), edita y guarda con "Commit changes". En 1–2 minutos el sitio se actualiza solo.
 
 - **Cambiar un precio:** edita `precio: 850000` (sin puntos).
-- **Marcar reservado o vendido:** cambia `estado: "disponible"` por `"reservado"` o `"vendido"`.
+- **Marcar reservado, pendiente o vendido:** cambia `estado: "disponible"` por `"reservado"`, `"pendiente"` o `"vendido"`.
 - **Agregar un artículo:** copia un bloque `{ ... }`, cambia el `id`, y sube sus fotos a `img/<id>/` como `01.jpg`, `02.jpg`… más una `thumb.jpg` cuadrada.
 
 ## Enlace directo a un artículo
@@ -22,7 +22,7 @@ Efectivo en euros (€), efectivo en pesos colombianos o llave Bre-B. Se paga el
 
 ## Vista previa en WhatsApp
 
-Al publicar, `scripts/generar-paginas.js` crea una página por artículo en `p/<id>/` con su propia foto, título, precio y datos estructurados. También genera `sitemap.xml` con la portada y los artículos disponibles o reservados; los vendidos no se incluyen en el sitemap. Así, buscadores y redes pueden descubrir páginas específicas y al compartir un artículo por WhatsApp o Facebook se ve la foto correcta. Esto pasa solo; no hay que hacer nada.
+Al publicar, `scripts/generar-paginas.js` crea una página por artículo en `p/<id>/` con su propia foto, título, precio y datos estructurados. También genera `sitemap.xml` con la portada y los artículos disponibles, reservados o pendientes; los vendidos no se incluyen en el sitemap. Así, buscadores y redes pueden descubrir páginas específicas y al compartir un artículo por WhatsApp o Facebook se ve la foto correcta. Esto pasa solo; no hay que hacer nada.
 
 ## SEO y Facebook Marketplace
 
