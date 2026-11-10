@@ -29,7 +29,7 @@
 | 25 | Freidora de aire (Air Fryer) Haceb | Cocina | $ 180.000 | **Vendido** |
 | 26 | Olla multifuncional eléctrica Imusa Speedy Cook 5 L | Cocina | $ 199.000 | **Vendido** |
 | 27 | Cafetera de cápsulas EVA (Cápsulas Express) con caja | Cocina | $ 70.000 | Disponible |
-| 28 | Chocotera multibebida Haceb Corona Inox | Cocina | $ 100.000 | Disponible |
+| 28 | Chocotera multibebida Haceb Corona Inox | Cocina | $ 100.000 | **Vendido** |
 | 29 | Licuadora Oster Osterizer clásica con vaso de vidrio | Cocina | $ 130.000 | **Vendido** |
 | 30 | Samsung Smart TV 40 pulgadas Full HD (UN40J5200AK) | Tecnología | $ 550.000 | **Vendido** |
 | 31 | Samsung Smart TV 49 pulgadas Full HD (UN49J5290AK) | Tecnología | $ 600.000 | **Vendido** |
@@ -43,7 +43,7 @@
 ## Resumen General
 
 - **Total de artículos:** 37
-- **Artículos vendidos:** 17 ($ 9.119.000)
+- **Artículos vendidos:** 18 ($ 9.219.000)
 - **Artículos pendientes:** 1 ($ 250.000)
-- **Artículos disponibles:** 19 ($ 7.540.000)
+- **Artículos disponibles:** 18 ($ 7.440.000)
 - **Valor total del catálogo:** $ 16.909.000

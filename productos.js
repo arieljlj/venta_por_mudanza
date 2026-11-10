@@ -578,7 +578,7 @@ window.PRODUCTOS = [
     categoria: "Cocina",
     precio: 100000,
     precioNuevo: null,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Muy buen estado",
     fotos: 4,
     destacado: false,
