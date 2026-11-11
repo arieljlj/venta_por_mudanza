@@ -34,7 +34,7 @@
 | 30 | Samsung Smart TV 40 pulgadas Full HD (UN40J5200AK) | Tecnología | $ 550.000 | **Vendido** |
 | 31 | Samsung Smart TV 49 pulgadas Full HD (UN49J5290AK) | Tecnología | $ 600.000 | **Vendido** |
 | 32 | Bicicleta urbana/híbrida GW aluminio rin 700c, frenos de disco, 21 velocidades | Juguetes y deporte | $ 380.000 | Disponible |
-| 33 | Pista Hot Wheels City Ultimate Garage original con dragón (GJL14) | Juguetes y deporte | $ 300.000 | Disponible |
+| 33 | Pista Hot Wheels City Ultimate Garage original con dragón (GJL14) | Juguetes y deporte | $ 300.000 | **Vendido** |
 | 34 | Combo 2 Pistolas Nerf Elite 2.0 (Shockwave RD-15 + Prospect QS-4) | Juguetes y deporte | $ 70.000 | Disponible |
 | 35 | Pista Hot Wheels Mario Kart: Castillo de Bowser (Original Mattel - Ref. GNM22) | Juguetes y deporte | $ 190.000 | Disponible |
 | 36 | Pista Hot Wheels Monster Trucks: Arena de Volcán T-Rex (Ref. GKP48) | Juguetes y deporte | $ 180.000 | Disponible |
@@ -43,7 +43,7 @@
 ## Resumen General
 
 - **Total de artículos:** 37
-- **Artículos vendidos:** 18 ($ 9.219.000)
+- **Artículos vendidos:** 19 ($ 9.519.000)
 - **Artículos pendientes:** 1 ($ 250.000)
-- **Artículos disponibles:** 18 ($ 7.440.000)
+- **Artículos disponibles:** 17 ($ 7.140.000)
 - **Valor total del catálogo:** $ 16.909.000
