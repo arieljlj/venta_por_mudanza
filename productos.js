@@ -682,7 +682,7 @@ window.PRODUCTOS = [
     categoria: "Juguetes y deporte",
     precio: 300000,
     precioNuevo: 850000,
-    estado: "disponible",
+    estado: "vendido",
     condicion: "Usado - Excelente estado",
     fotos: 3,
     destacado: false,
