@@ -3,7 +3,7 @@
 | # | Artículo | Categoría | Precio de Venta (COP) | Estado |
 |---|----------|-----------|-----------------------|--------|
 | 1 | Nevera Samsung Bottom Freezer 432 L No Frost Negro Inox (RL4363SBABS) | Electrodomésticos | $ 1.550.000 | **Vendido** |
-| 2 | Lavadora LG 13 kg Smart Inverter TurboDrum | Electrodomésticos | $ 490.000 | Disponible |
+| 2 | Lavadora LG 13 kg Smart Inverter TurboDrum | Electrodomésticos | $ 490.000 | **Vendido** |
 | 3 | Aire acondicionado Kalley Inverter 12.000 BTU mini split (K-A12D) | Electrodomésticos | $ 700.000 | **Vendido** |
 | 4 | Horno microondas Whirlpool plateado (WMS07ZD) | Electrodomésticos | $ 130.000 | **Vendido** |
 | 5 | Juego de sala moderno acanalado en terciopelo: sofá + 2 poltronas + mesas nido | Sala y comedor | $ 1.250.000 | **Vendido** |
@@ -19,16 +19,16 @@
 | 15 | Barra de sonido LG SK1D con Bluetooth | Tecnología | $ 150.000 | **Vendido** |
 | 16 | Smart TV Hyundai 32 pulgadas curvo (para repuestos o uso con detalle en pantalla) | Tecnología | $ 100.000 | **Vendido** |
 | 17 | Escritorio madera con pata de vidrio + silla ergonómica | Oficina | $ 320.000 | **Vendido** |
-| 18 | Escritorio blanco con vidrio y cajones + silla giratoria + organizador | Oficina | $ 310.000 | Disponible |
+| 18 | Escritorio blanco con vidrio y cajones + silla giratoria + organizador | Oficina | $ 310.000 | **Vendido** |
 | 19 | Cómoda blanca de 3 cajones | Alcoba | $ 110.000 | **Vendido** |
 | 20 | Espejo Decorativo Grande de Pared 1.60 m x 80 cm Marco Mosaico de Cristal | Decoración | $ 380.000 | Disponible |
 | 21 | Cuadro de autor: "Vastedad de tulipanes" – Daniel Mauricio Córdoba (140 x 140 cm) | Decoración | $ 1.600.000 | **Vendido** |
 | 22 | Lámpara de pie para lectura negra | Decoración | $ 90.000 | Disponible |
-| 23 | Ventilador de pedestal Samurai | Electrodomésticos | $ 90.000 | Disponible |
-| 24 | Cama 1,20 m cabecero capitoné NEGRO + colchón + mesa de noche | Alcoba | $ 350.000 | Disponible |
+| 23 | Ventilador de pedestal Samurai | Electrodomésticos | $ 90.000 | **Vendido** |
+| 24 | Cama 1,20 m cabecero capitoné NEGRO + colchón + mesa de noche | Alcoba | $ 350.000 | **Vendido** |
 | 25 | Freidora de aire (Air Fryer) Haceb | Cocina | $ 180.000 | **Vendido** |
 | 26 | Olla multifuncional eléctrica Imusa Speedy Cook 5 L | Cocina | $ 199.000 | **Vendido** |
-| 27 | Cafetera de cápsulas EVA (Cápsulas Express) con caja | Cocina | $ 50.000 | Disponible |
+| 27 | Cafetera de cápsulas EVA (Cápsulas Express) con caja | Cocina | $ 50.000 | **Vendido** |
 | 28 | Chocotera multibebida Haceb Corona Inox | Cocina | $ 100.000 | **Vendido** |
 | 29 | Licuadora Oster Osterizer clásica con vaso de vidrio | Cocina | $ 130.000 | **Vendido** |
 | 30 | Samsung Smart TV 40 pulgadas Full HD (UN40J5200AK) | Tecnología | $ 550.000 | **Vendido** |
@@ -43,7 +43,7 @@
 ## Resumen General
 
 - **Total de artículos:** 37
-- **Artículos vendidos:** 19 ($ 9.519.000)
+- **Artículos vendidos:** 24 ($ 10.809.000)
 - **Artículos pendientes:** 1 ($ 250.000)
-- **Artículos disponibles:** 17 ($ 6.900.000)
+- **Artículos disponibles:** 12 ($ 5.610.000)
 - **Valor total del catálogo:** $ 16.669.000
